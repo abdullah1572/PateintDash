@@ -1,0 +1,193 @@
+-+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesec.css">
+</head>
+<body>
+
+<div id="map"></div>
+
+<style type="text/css">
+
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+    .mapboxgl-popup {
+        max-width: 30px;
+        font: 15px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+        font-size: 18px !important;
+        position: relative;
+    }
+</style>
+<script type="text/javascript">
+
+	mapboxgl.accessToken = 'pk.eyJ1Ijoia2lraXN0ZWYiLCJhIjoiY2t1aTJ3eHltMDV3ODJ3cGUxemUzZWl3OSJ9.8-ngOMPn_Uk_LMavuCIpbQ';
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-73.9903106, 40.7331154],
+        // ['newyork', 40.7127, 74.0059, newyorkContent],
+        zoom: 12.15
+    });
+
+    map.on('load', () => {
+        map.addSource('places', {
+            'type': 'geojson',
+            'data': {
+                'type': 'FeatureCollection',
+                'features': [
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<div class="docter_information"><div class="docter_img"><img src="img/Catherine-Smith-PA-1.png"></div><div class="docter_name_sn"><div class="docter_name d-flex justify-content-between"><h4>Catherine Smith, PA</h4><h5>(09.mi)</h5></div><div class="dovter_work"><h6>Psychiatry PA</h6></div><div class="docter_words d-flex"><h6>Languages :&nbsp;&nbsp;<a href="">English</a>&nbsp;/&nbsp;<a href="">Urdu</a></h6></div><div class="docter_vist"><h6>67 Perry St, New York, NY 10014</h6></div><div class="total_reviw">(9)</div></div></div>'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-73.9985076, 40.7247936]
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<div class="docter_information"><div class="docter_img"><img src="img/Catherine-Smith-PA-2.png"></div><div class="docter_name_sn"><div class="docter_name d-flex justify-content-between"><h4>Faisal Tai, MD</h4><h5>(09.mi)</h5></div><div class="dovter_work"><h6>Psychiatry PA</h6></div><div class="docter_words d-flex"><h6>Languages :&nbsp;&nbsp;<a href="">English</a>&nbsp;/&nbsp;<a href="">Urdu</a></h6></div><div class="docter_vist"><h6>233 Broadway, Suite 2750, New York, NY 10279</h6></div><div class="total_reviw">(9)</div></div></div>'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-74.0011665, 40.7330395]
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<div class="docter_information"><div class="docter_img"><img src="img/Catherine-Smith-PA-3.png"></div><div class="docter_name_sn"><div class="docter_name d-flex justify-content-between"><h4>Sabrina Daniell, NP</h4><h5>(07.mi)</h5></div><div class="dovter_work"><h6>Psychiatry PA</h6></div><div class="docter_words d-flex"><h6>Languages :&nbsp;&nbsp;<a href="">English</a>&nbsp;/&nbsp;<a href="">Urdu</a></h6></div><div class="docter_vist"><h6>67 Perry St, New York, NY 10014</h6></div><div class="total_reviw">(9)</div></div></div>'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-73.9978678, 40.7260009]
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<div class="docter_information"><div class="docter_img"><img src="img/DrFelix.png"></div><div class="docter_name_sn"><div class="docter_name d-flex justify-content-between"><h4>Dr. Felix Chien, DO</h4><h5>(06.mi)</h5></div><div class="dovter_work"><h6>Psychiatry PA</h6></div><div class="docter_words d-flex"><h6>Languages :&nbsp;&nbsp;<a href="">English</a>&nbsp;/&nbsp;<a href="">Urdu</a></h6></div><div class="docter_vist"><h6>139 Centre Street, Suite 315, New York, NY 10013</h6></div><div class="total_reviw">(9)</div></div></div>'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-73.9907452, 40.7190245]
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<div class="docter_information"><div class="docter_img"><img src="img/drandrew.png"></div><div class="docter_name_sn"><div class="docter_name d-flex justify-content-between"><h4>Sean Thompson, NP</h4><h5>(09.mi)</h5></div><div class="dovter_work"><h6>Psychiatry PA</h6></div><div class="docter_words d-flex"><h6>Languages :&nbsp;&nbsp;<a href="">English</a>&nbsp;/&nbsp;<a href="">Urdu</a></h6></div><div class="docter_vist"><h6>67 Perry St, New York, NY 10014</h6></div><div class="total_reviw">(9)</div></div></div>'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-73.9996461, 40.736221]
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<div class="docter_information"><div class="docter_img"><img src="img/DrNeelima.png"></div><div class="docter_name_sn"><div class="docter_name d-flex justify-content-between"><h4>Dr. Neelima Tangirala, MD, MPH</h4><h5>(08.mi)</h5></div><div class="dovter_work"><h6>Psychiatry PA</h6></div><div class="docter_words d-flex"><h6>Languages :&nbsp;&nbsp;<a href="">English</a>&nbsp;/&nbsp;<a href="">Urdu</a></h6></div><div class="docter_vist"><h6>233 Broadway, Suite 2750, New York, NY 10279</h6></div><div class="total_reviw">(9)</div></div></div>'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-74.0036067, 40.7247911]
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<div class="docter_information"><div class="docter_img"><img src="img/DrIgor.png"></div><div class="docter_name_sn"><div class="docter_name d-flex justify-content-between"><h4>Dr. Igor Kletsman, MD</h4><h5>(07.mi)</h5></div><div class="dovter_work"><h6>Psychiatry PA</h6></div><div class="docter_words d-flex"><h6>Languages :&nbsp;&nbsp;<a href="">English</a>&nbsp;/&nbsp;<a href="">Urdu</a></h6></div><div class="docter_vist"><h6>78 5th Ave, 7th Floor, New York, NY 10011</h6></div><div class="total_reviw">(9)</div></div></div>'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-74.0130983, 40.7143386]
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<div class="docter_information"><div class="docter_img"><img src="img/DrFelix.png"></div><div class="docter_name_sn"><div class="docter_name d-flex justify-content-between"><h4>Dr. Felix Chien, DO</h4><h5>(06.mi)</h5></div><div class="dovter_work"><h6>Psychiatry PA</h6></div><div class="docter_words d-flex"><h6>Languages :&nbsp;&nbsp;<a href="">English</a>&nbsp;/&nbsp;<a href="">Urdu</a></h6></div><div class="docter_vist"><h6>139 Centre Street, Suite 315, New York, NY 10013</h6></div><div class="total_reviw">(9)</div></div></div>'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-73.9857045, 40.7453355]
+                        }
+                    },
+                    {
+                        'type': 'Feature',
+                        'properties': {
+                            'description':
+                                '<div class="docter_information"><div class="docter_img"><img src="img/drandrew.png"></div><div class="docter_name_sn"><div class="docter_name d-flex justify-content-between"><h4>Sean Thompson, NP</h4><h5>(09.mi)</h5></div><div class="dovter_work"><h6>Psychiatry PA</h6></div><div class="docter_words d-flex"><h6>Languages :&nbsp;&nbsp;<a href="">English</a>&nbsp;/&nbsp;<a href="">Urdu</a></h6></div><div class="docter_vist"><h6>67 Perry St, New York, NY 10014</h6></div><div class="total_reviw">(9)</div></div></div>'
+                        },
+                        'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-74.0008312, 40.7456197]
+                        }
+                    }
+                ]
+            }
+        });
+        // Add a layer showing the places.
+        map.addLayer({
+            'id': 'places',
+            'type': 'circle',
+            'source': 'places',
+            'paint': {
+                'circle-color': '#2a67bc',
+                'circle-radius': 6,
+                'circle-stroke-width': 2,
+                'circle-stroke-color': '#ffffff'
+            }
+        });
+
+        // Create a popup, but don't add it to the map yet.
+        const popup = new mapboxgl.Popup({
+            closeButton: false,
+            closeOnClick: false,
+        });
+
+        map.on('mouseenter', 'places', (e) => {
+            // Change the cursor style as a UI indicator.
+            map.getCanvas().style.cursor = 'pointer';
+
+            // Copy coordinates array.
+            const coordinates = e.features[0].geometry.coordinates.slice();
+            const description = e.features[0].properties.description;
+
+            // Ensure that if the map is zoomed out such that multiple
+            // copies of the feature are visible, the popup appears
+            // over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+
+            // Populate the popup and set its coordinates
+            // based on the feature found.
+            popup.setLngLat(coordinates).setHTML(description).addTo(map);
+        });
+
+        map.on('mouseleave', 'places', () => {
+            map.getCanvas().style.cursor = '';
+            popup.remove();
+        });
+    });
+
+</script>
+</body>
+</html>

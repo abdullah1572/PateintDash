@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+      <meta charset="utf-8">
+      <title>index</title>
+      <link rel="stylesheet" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel='stylesheet' id='roboto-subset.css-css'  href='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/mdb5/fonts/roboto-subset.css?ver=3.9.0-update.5' type='text/css' media='all' />
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="./js/jquery.js"></script>
+      <link rel="stylesheet" type="text/css" href="./css/stylesec.css">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="login_form">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-9">
+                  <div class="left_img">
+                     <img src="./img/left-side-img.png">
+                  </div>
+               </div>
+               <div class="col-3">
+                  <!-- 	sing in	 -->		
+                    <div class="sing_in">
+                     <div class="site_logo">
+                        <img src="./img/site_logo.png">
+                     </div>
+                     <h3>Sign in</h3>
+                     <div class="fast_form">
+                        <form>
+                           <!-- Email input -->
+                           <div class="form-outline mb-4">
+                              <input type="email" id="form2Example1" class="form-control login-reg email" placeholder="example@gmail.com" />
+                              <label class="form-label" for="form2Example1">Email</label>
+                           </div>
+                           <!-- Password input -->
+                           <div class="form-outline mb-1" id="show_hide_password">
+                              <input type="password" id="form2Example2" class="form-control login-reg psw" placeholder="***********" />
+                              <label class="form-label" for="form2Example2">Password</label>
+                              <div class="input-group-addon">
+                                 <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                              </div>
+                           </div>
+                           <!-- 2 column grid layout for inline styling -->
+                           <div class="row mb-4">
+                              <div class="col d-flex justify-content-left">
+                                 <!-- Checkbox -->
+                                 <div class="form-check d-flex">
+                                    <input class="form-check-input_box" type="checkbox" value="" id="form2Example31"  />
+                                    <label class="form-check-label_box" for="form2Example31"> Remember me </label>
+                                 </div>
+                              </div>
+                              <div class="col ftp">
+                                 <!-- Simple link -->
+                                 <a href="#!">Forgot your password?</a>
+                              </div>
+                           </div>
+                           <!-- Register buttons -->
+                           <div class="text-center">
+                              <!-- Submit button -->
+                              <button type="button" class="btn btn-primary fix-size mb-4">Sign in</button>
+                              <p>Don’t have an account yet? <a href="#!"></a></p>
+                              <!-- Submit button -->
+                              <button type="button" class="btn btn-outline-primary fix-size mt-1">Create Account</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+                  <!-- 	sing in	 -->
+                  <div class="Create_Account">
+                     <div class="site_logo">
+                        <img src="./img/site_logo.png">
+                     </div>
+                     <h3>Create Account</h3>
+                     <div class="fast_form">
+                        <form>
+                           <!-- Name input -->
+                           <div class="form-outline mb-4">
+                              <input type="text" id="registerName" class="form-control login-reg fn" placeholder="Please Enter your first Name here" />
+                              <label class="form-label" for="registerName">First Name</label>
+                           </div>
+                           <!-- Last Name input -->
+                           <div class="form-outline mb-4">
+                              <input type="text" id="registerName" class="form-control login-reg ln" placeholder="Please Enter your last Name here" />
+                              <label class="form-label" for="registerName">Last Name</label>
+                           </div>
+                           <!-- number input -->
+                           <div class="form-outline mb-4">
+                              <input type="tel" id="registerName" class="form-control login-reg pn" placeholder="(xxx) xxx - xxxx" />
+                              <label class="form-label" for="registerName">Phone Number</label>
+                           </div>
+                           <!-- Email input -->
+                           <div class="form-outline mb-4">
+                              <input type="email" id="form2Example1" class="form-control login-reg ea" placeholder="example@gmail.com" />
+                              <label class="form-label" for="form2Example1">Email</label>
+                           </div>
+                           <!-- Password input -->
+                           <div class="form-outline mb-4" id="show_hide_password">
+                              <input type="password" id="form2Example2" class="form-control login-reg psw2" placeholder="***********"/>
+                              <label class="form-label password" for="form2Example2">Password</label>
+                              <div class="input-group-addon cr_ac">
+                                 <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                              </div>
+                           </div>
+                           <!-- Confirm Password -->
+                           <div class="form-outline mb-1" id="show_hide_password">
+                              <input type="password" id="form2Example2" class="form-control login-reg cpsw2" placeholder="***********"/>
+                              <label class="form-label password" for="form2Example2">Confirm Password</label>
+                              <div class="input-group-addon cr_con">
+                                 <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                              </div>
+                           </div>
+                           <!-- 2 column grid layout for inline styling -->
+                           <div class="row mb-3">
+                              <div class="col d-flex justify-content-left">
+                                 <!-- Checkbox -->
+                                 <div class="form-check d-flex">
+                                    <input class="form-check-input_box" type="checkbox" value="" id="form2Example31"  />
+                                    <label class="form-check-label_box" for="form2Example31"> Remember me </label>
+                                 </div>
+                              </div>
+                              <div class="col text-right">
+                                 <!-- Simple link -->
+                                 <!-- <a href="#!">Forgot your password?</a> -->
+                              </div>
+                           </div>
+                           <!-- Register buttons -->
+                           <div class="choic_yn mb-4">
+                              <p>Do you have a parent/guardian?</p>
+                              <div class="form-check form-check-inline">
+                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                 <label class="form-check-label" for="inlineRadio1">No</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                 <input class="form-check-input choics" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                 <label class="form-check-label" for="inlineRadio2">Yes</label>
+                              </div>
+                           </div>
+                           <div class="yes_no_choics">
+                              <div class="form-outline mb-3">
+                                 <input type="text" id="registerName" class="form-control login-reg fn2" placeholder="First" />
+                                 <label class="form-label" for="registerName">Guardian First Name</label>
+                              </div>
+                              <div class="form-outline mb-2">
+                                 <input type="text" id="registerName" class="form-control login-reg ln2" placeholder="Last" />
+                                 <label class="form-label" for="registerName">Guardian Last Name</label>
+                              </div>
+                           </div>
+                           <!-- Register buttons -->
+                           <div class="text-cent ">
+                              <div class="form-check mt-2 mb-2">
+                                 <p class="check-box-left"><input type="checkbox"> Yes, I agree to the &nbsp;<a href="#">Terms and Conditions</a></p>
+                              </div>
+                              <!-- Submit button -->
+                              <button type="button" class="btn btn-primary fix-size mt-2 mb-1">Create Account</button>
+                              <!-- Submit button -->
+                              <div class="form-check mt-2 mb-2">
+                                 <p>Already have an account?</p>
+                              </div>
+                              <button type="button" class="btn btn-outline-primary fix-size mt-2">Sign in</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="book_an_appointment">
+         <!-- hader -->
+         <div class="men_header">
+            <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+               <a class="navbar-brand" href="#"><img src="./img/wight_logo.png"></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarsExample06">
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item fast reddot active">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                           <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+                        </svg>
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item fast reddot">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                           <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                           <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                        </svg>
+                        <a class="nav-link" href="#">My Account (Plus Member)</a>
+                     </li>
+                     <li class="nav-item fast reddot">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-left-text" viewBox="0 0 16 16">
+                           <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                           <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                        <a class="nav-link " href="#">Chat</a>
+                     </li>
+                     <li class="nav-item fast reddot">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-credit-card-2-front" viewBox="0 0 16 16">
+                           <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+                           <path d="M2 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                        <a class="nav-link " href="#">Billing</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="collapse navbar-collapse sec" id="navbarsExample06">
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item reddot">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                           <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                        </svg>
+                        <a class="nav-link" href="#">Notifications</a>
+                     </li>
+                     <li class="nav-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                           <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                        </svg>
+                        <a class="nav-link" href="#">Settings</a>
+                     </li>
+                  </ul>
+               </div>
+               <form class="form-inline my-2 my-md-0">
+                  <button type="button" class="btn btn-outline-light log out">Log out</button>
+               </form>
+            </nav>
+         </div>
+         <!-- book appoiment -->
+         <div class="container">
+            <!-- <div class="book-appoi">
+               <div class="site_hadding">
+                  <h4>Book an appointment</h4>
+               </div>
+               <div class="buttones_two">
+                  <a class="btn btn-primary" href="#" role="button">Psychiatrist</a>
+                  <a class="btn btn-primary" href="#" role="button"> Therapist </a>
+               </div>
+            </div> -->
+            <div class="book-appoi dekstop">
+               <div class="site_hadding">
+                  <h4 >Your Personalized Care Plans</h4>
+               </div>
+               <div class="buttones_two">
+                  <div class="row">
+                     <div class="col-lg-4 col-sm-12">
+                        <a class="btn btn-outline-primary two pro yellow" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter">Anxiety</a>
+                     </div>
+                     <div class="col-lg-4 col-sm-12">
+                        <a class="btn btn-outline-primary two pro blue" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter"> Depression </a>
+                     </div>
+                     <div class="col-lg-4 col-sm-12">
+                        <a class="btn btn-outline-primary two pro green" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter"> Insomnia </a>
+                     </div>
+                  </div>
+               </div>
+               <!-- POP -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                 <div class="modal-dialog modal-dialog-centered" role="document">
+                   <div class="modal-content">
+                     <div class="poplogo mb-2">
+                        <img src="./img/site_logo.png" width="200">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                       </button>
+                     </div>   
+                     <form method="GET" action="unkonw-book-appoiment/docter-impoiment.html">
+                        <div class="choic_appiment">
+                           <div class="fild1 mt-3 mb-3">
+                           <h5 class="modal-title mb-1" id="exampleModalLongTitle">1. Would you like a Virtual or In people Appointment ?</h5>
+                           <div class="choicthr d-flex align-items-center">
+                              <input type="radio" id="html" name="fav_language" value="HTML">
+                              <label for="html">Virtual</label>
+                              <input type="radio" id="css" name="fav_language" value="CSS">
+                              <label for="css">In-Person</label>
+                              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                              <label for="javascript">Either</label>
+                           </div>
+                           </div>
+                           <div class="fild2 mt-3 mb-3">
+                              <h5 class="modal-title mb-1" id="exampleModalLongTitle">2. Do you want see a Therapist ? </h5>
+                           <div class="choicthr d-flex align-items-center">
+                              <input type="radio" id="age1" name="age" value="Psychiatrist">
+                              <label for="age1">Psychiatrist</label><br>
+                              <input type="radio" id="age2" name="age" value="Therapist">
+                              <label for="age2">Therapist</label>
+                           </div>
+                           </div>
+                           <div class="flid3 mt-3 mb-3">
+                              <div class="col-6 p-0">
+                                 <h5 class="modal-title mb-1" id="exampleModalLongTitle">3. Zip Code</h5>
+                                 <input type="number" name="number" class="form-control" id="inputZip" placeholder="Zip Code">
+                              </div>   
+                           </div>
+                           <div class="flid4 mt-4 mb-4 text-left">
+                              <!-- <a class="btn btn-primary" href="unkonw-book-appoiment/docter-impoiment.html" role="button">Search</a> -->
+                              <button type="submit" class="btn btn-primary inpop" href="unkonw-book-appoiment/docter-impoiment.html" role="button">Search</button>
+                           </div>
+                        </div>
+                     </form>   
+                     <!-- <div class="modal-footer44445444 d-block">
+                       <button type="button" class="btn btn-primary">Upgrade to Plus Membership</button>
+                     </div> -->
+                   </div>
+                </div>
+               </div>
+            </div>
+            <!-- upcoming_appointments -->	
+            <div class="upcoming_appointments">
+               <div class="row">
+                  <div class="col-3" >
+                     <div class="first_last">
+                        <div class="dp-img">
+                           <img src="./img/first-last.png" width= "80px">
+                        </div>
+                        <div class="user_name">
+                           <h3>First Last</h3>
+                           <h6>24 yo F</h6>
+                        </div>
+                        <div class="editer">
+                           <a href="#">
+                              <i class="fa-solid fa-circle-exclamation"></i>
+                           </a>
+                           <span class="tooltiptext">Please complete your information</span>
+                        </div>
+                     </div>
+                     <!-- mobhil view section -->
+                     <div class="your-care-team">
+                        <div class="team-member">
+                           <h3 class="mb-4">Your Care Team</h3>
+                           <div class="active_box">
+                              <div class="fast-member d-flex align-items-center">
+                                 <div class="dp-img">
+                                    <img src="./img/user-name.png" width= "80px">
+                                 </div>
+                                 <div class="user_name">
+                                    <h5>Choose a Psychiatrist</h5>
+                                 </div>
+                              </div>
+                              <a class="btn btn-primary" href="#" role="button">Book Appointment</a>
+                              <div class="change-provider text-end">
+                              <a href="#">Change Provider</a>
+                           </div>
+                           </div> 
+                           <div class="sec-member d-flex align-items-center mt-4">
+                              <div class="dp-img">
+                                 <img src="./img/user-name.png" width= "80px">
+                              </div>
+                              <div class="user_name">
+                                 <h5>Choose a Therapist</h5>
+                              </div>
+                           </div>
+                           <a class="btn btn-primary" href="#" role="button">Book Appointment</a>
+                           <div class="change-provider text-end">
+                              <a href="#">Change Provider</a>
+                           </div>  
+                        </div>
+                     </div>
+                  </div>
+                  <!-- upcoming appointements -->		
+                  <div class="col-9">
+                     <div class="upcoming-appointments sec_section">
+                        <h3 class="mb-4 bap">Book an appointment</h3>
+                        <h4 class="after_book_block">Interested in a Personalized Care Plan?</h4>
+                        <div class="row">
+                        <div class="book-appoiment">
+                           <div class="buttones_two">
+                              <a class="btn btn-primary appo pasychiatrist" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter" onclick="psychiatrist_btn();">Psychiatrist</a>
+                              <a class="btn btn-primary appo Therapist" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenter" onclick="therapist_btn();"> Therapist </a>
+                           </div>
+                           <div class="after_book">
+                              <a class="btn btn-outline-primary book" href="#" role="button" onclick="check()"> Insomnia </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- medication -->		
+            <div class="medication">
+               <h3>Medication</h3>
+               <div class="Escitalopram md_list">
+                  <table>
+                     <tr>
+                        <td>
+                           <h3>
+                           Escitalopram 10 MG
+                           <h3>
+                        </td>
+                        <td>
+                           <h6>tablet daily</h6>
+                        </td>
+                        <td>
+                           <h6>
+                           30 day supply
+                           <h6>
+                        </td>
+                        <td>
+                           <h6>Ends 2/12/22</h6>
+                        </td>
+                        <td>
+                           <h6><i class="fas fa-check"></i>Walgreens (000-000-0000)</h6>
+                        </td>
+                        <td>
+                           <h6>First Last, MD</h6>
+                        </td>
+                        <td class="pic"><a class="btn btn-outline-primary pic" href="#" role="button"><i class="far fa-image"></i>&nbsp;View Image</a></td>
+                        <td><a class="btn btn-outline-primary pic" href="#" role="button"><i class="fas fa-video"></i>&nbsp;View Video</a></td>
+                     </tr>
+                  </table>
+                  <div class="comments_me">
+                     <h6><b>Comments</b>&nbsp;&nbsp;Store the medicine in a closed container at room temperature, away from heat, moisture, and direct light. Keep from freezing.</h6>
+                  </div>
+               </div>
+               <div class="Escitalopram md_list">
+                  <table>
+                     <tr>
+                        <td>
+                           <h3>
+                           Escitalopram 10 MG
+                           <h3>
+                        </td>
+                        <td>
+                           <h6>tablet daily</h6>
+                        </td>
+                        <td>
+                           <h6>
+                           30 day supply
+                           <h6>
+                        </td>
+                        <td>
+                           <h6>Ends 2/12/22</h6>
+                        </td>
+                        <td>
+                           <h6><i class="fas fa-check"></i>Walgreens (000-000-0000)</h6>
+                        </td>
+                        <td>
+                           <h6>First Last, MD</h6>
+                        </td>
+                        <td class="pic"><a class="btn btn-outline-primary pic" href="#" role="button"><i class="far fa-image"></i>&nbsp;View Image</a></td>
+                        <td><a class="btn btn-outline-primary pic" href="#" role="button"><i class="fas fa-video"></i>&nbsp;View Video</a></td>
+                     </tr>
+                  </table>
+                  <div class="comments_me">
+                     <h6><b>Comments</b>&nbsp;&nbsp;Store the medicine in a closed container at room temperature, away from heat, moisture, and direct light. Keep from freezing.</h6>
+                  </div>
+               </div>
+               <div class="Escitalopram md_list">
+                  <table>
+                     <tr>
+                        <td>
+                           <h3>
+                           Escitalopram 10 MG
+                           <h3>
+                        </td>
+                        <td>
+                           <h6>tablet daily</h6>
+                        </td>
+                        <td>
+                           <h6>
+                           30 day supply
+                           <h6>
+                        </td>
+                        <td>
+                           <h6>Ends 2/12/22</h6>
+                        </td>
+                        <td>
+                           <h6><i class="fas fa-check"></i>Walgreens (000-000-0000)</h6>
+                        </td>
+                        <td>
+                           <h6>First Last, MD</h6>
+                        </td>
+                        <td class="pic"><a class="btn btn-outline-primary pic" href="#" role="button"><i class="far fa-image"></i>&nbsp;View Image</a></td>
+                        <td><a class="btn btn-outline-primary pic" href="#" role="button"><i class="fas fa-video"></i>&nbsp;View Video</a></td>
+                     </tr>
+                  </table>
+                  <div class="comments_me">
+                     <h6><b>Comments</b>&nbsp;&nbsp;Store the medicine in a closed container at room temperature, away from heat, moisture, and direct light. Keep from freezing.</h6>
+                  </div>
+               </div>
+               <div class="view-medication-history">
+                  <a class="btn btn-primary" href="#" role="button">View Medication History</a>
+               </div>
+            </div>
+            <!-- medication mobhil view -->	
+            <div class="medication_mobhil_view">
+               <h3>Medication</h3>
+               <div class="Escitalopram md_list">
+                  <table>
+                     <tr>
+                        <td>
+                           <h3>Escitalopram 10 MG</h3>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <h6>tablet daily</h6>
+                        </td>
+                        <td>
+                           <h6>30 day supply</h6>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <h6>Ends 2/12/22</h6>
+                        </td>
+                        <td>
+                           <h6>First Last, MD</h6>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <h6><i class="fas fa-check"></i>Walgreens</h6>
+                        </td>
+                        <td>
+                           <h6>(000-000-0000)</h6>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="pic"><a class="btn btn-outline-primary" href="#" role="button"><i class="far fa-image"></i>&nbsp;View Image</a></td>
+                        <td><a class="btn btn-outline-primary" href="#" role="button"><i class="fas fa-video"></i>&nbsp;View Video</a></td>
+                     </tr>
+                  </table>
+                  <div class="comments_me">
+                     <h6><b>Comments</b>&nbsp;&nbsp;Store the medicine in a closed container at room temperature, away from heat, moisture, and direct light. Keep from freezing.</h6>
+                  </div>
+               </div>
+               <div class="Escitalopram md_list">
+                  <table>
+                     <tr>
+                        <td>
+                           <h3>Escitalopram 10 MG</h3>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <h6>tablet daily</h6>
+                        </td>
+                        <td>
+                           <h6>30 day supply</h6>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <h6>Ends 2/12/22</h6>
+                        </td>
+                        <td>
+                           <h6>First Last, MD</h6>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <h6><i class="fas fa-check"></i>Walgreens</h6>
+                        </td>
+                        <td>
+                           <h6>(000-000-0000)</h6>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="pic"><a class="btn btn-outline-primary" href="#" role="button"><i class="far fa-image"></i>&nbsp;View Image</a></td>
+                        <td><a class="btn btn-outline-primary" href="#" role="button"><i class="fas fa-video"></i>&nbsp;View Video</a></td>
+                     </tr>
+                  </table>
+                  <div class="comments_me">
+                     <h6><b>Comments</b>&nbsp;&nbsp;Store the medicine in a closed container at room temperature, away from heat, moisture, and direct light. Keep from freezing.</h6>
+                  </div>
+               </div>
+               <div class="Escitalopram md_list">
+                  <table>
+                     <tr>
+                        <td>
+                           <h3>Escitalopram 10 MG</h3>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <h6>tablet daily</h6>
+                        </td>
+                        <td>
+                           <h6>30 day supply</h6>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <h6>Ends 2/12/22</h6>
+                        </td>
+                        <td>
+                           <h6>First Last, MD</h6>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <h6><i class="fas fa-check"></i>Walgreens</h6>
+                        </td>
+                        <td>
+                           <h6>(000-000-0000)</h6>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="pic"><a class="btn btn-outline-primary" href="#" role="button"><i class="far fa-image"></i>&nbsp;View Image</a></td>
+                        <td><a class="btn btn-outline-primary" href="#" role="button"><i class="fas fa-video"></i>&nbsp;View Video</a></td>
+                     </tr>
+                  </table>
+                  <div class="comments_me">
+                     <h6><b>Comments</b>&nbsp;&nbsp;Store the medicine in a closed container at room temperature, away from heat, moisture, and direct light. Keep from freezing.</h6>
+                  </div>
+               </div>
+               <div class="view-medication-history">
+                  <a class="btn btn-primary" href="#" role="button">View Medication History</a>
+               </div>
+            </div>
+            <!-- footer menu -->		
+            <div class="footr-menu">
+               <div class="men_header">
+                  <nav class="navbar navbar-expand-xl navbar-dark ">
+                     <div class="collapse navbar-collapse" id="navbarsExample06">
+                        <ul class="navbar-nav mr-auto">
+                           <li class="nav-item">
+                              <i class="far fa-calendar-check"></i>
+                              <a class="nav-link" href="#">Past Appointments<span class="sr-only">(current)</span></a>
+                           </li>
+                           <li class="nav-item">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-left-text" viewBox="0 0 16 16">
+                                 <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                 <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                              </svg>
+                              <a class="nav-link " href="#">Letters</a>
+                           </li>
+                           <li class="nav-item">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-credit-card-2-front" viewBox="0 0 16 16">
+                                 <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+                                 <path d="M2 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
+                              </svg>
+                              <a class="nav-link " href="#">Live Chat</a>
+                           </li>
+                           <li class="nav-item">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                                 <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                              </svg>
+                              <a class="nav-link" href="#">After Visit Summary</a>
+                           </li>
+                           <li class="nav-item">
+                              <i class="fas fa-file-prescription"></i>
+                              <a class="nav-link" href="#">Prescription Refill</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+            <!--  footer menu mobhil view	 -->
+            <div class="footr-menu_mobhil_view">
+               <div class="men_heade">
+                  <div class="first_last_menu" id="navbarsExample06">
+                     <div class="footer_icons">
+                        <div class="nav-item">
+                           <i class="far fa-calendar-check"></i>
+                           <a class="nav-link" href="#">Past Appointments<span class="sr-only">(current)</span></a>
+                        </div>
+                        <div class="nav-item">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-left-text" viewBox="0 0 16 16">
+                              <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                              <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                           </svg>
+                           <a class="nav-link " href="#">Letters</a>
+                        </div>
+                        <div class="nav-item">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-credit-card-2-front" viewBox="0 0 16 16">
+                              <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+                              <path d="M2 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
+                           </svg>
+                           <a class="nav-link " href="#">Live Chat</a>
+                        </div>
+                        <div class="nav-item">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                              <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                           </svg>
+                           <a class="nav-link" href="#">After Visit Summary</a>
+                        </div>
+                        <div class="nav-item">
+                           <i class="fas fa-file-prescription"></i>
+                           <a class="nav-link" href="#">Prescription Refill</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

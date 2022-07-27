@@ -1,0 +1,3324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.left_img img {
+    width: 100%;
+    height: 100vh;
+}
+.llo{
+    padding-right: 0px;
+}
+.login_form .col-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 66.67%;
+    max-width: 66.67%;
+}
+
+.login_form .col-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+
+.login_form .col-9 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.login_form .col-3 {
+    margin: auto 0;
+    padding: 0px 75px;
+    background: #fff;
+}
+
+.login_form h3 {
+    text-align: center;
+    padding: 25px 0px;
+    font-weight: 700;
+}
+
+.fix-size {
+    width: 50%;
+}
+
+.site_logo img {
+    width: 200px;
+}
+
+.site_logo {
+    text-align: center;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 8px 18px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #2A67BC;
+    ;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+label.form-label {
+    background-color: #fff;
+    position: absolute;
+    left: 70px;
+    margin: -12px;
+    padding: 0px 6px;
+    font-size: 15px;
+    color: #2A67BC;
+}
+
+button.btn.btn-primary.fix-size.mb-4 {
+    color: #fff;
+    background-color: #2a67bc;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #2a67bc;
+}
+
+button.btn.btn-primary.fix-size.mb-4:hover {
+    background-color: #fff;
+    color: #2a67bc;
+    border: 2px solid #2a67bc;
+    font-weight: 500;
+}
+
+button.btn.btn-outline-primary.fix-size.mt-1 {
+    border: 2px solid #2a67bc;
+    color: #2a67bc;
+    font-weight: 500;
+    padding: 10px;
+}
+
+button.btn.btn-outline-primary.fix-size.mt-1:hover {
+    background-color: #2a67bc;
+    color: #fff;
+    padding: 10px;
+}
+
+button.btn.btn-primary.fix-size.mt-2 {
+    color: #fff;
+    background-color: #2a67bc;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #2a67bc;
+}
+
+button.btn.btn-primary.fix-size.mt-2:hover {
+    background-color: #fff;
+    color: #2a67bc;
+    border: 2px solid #2a67bc;
+    font-weight: 500;
+}
+
+button.btn.btn-outline-primary.fix-size.mt-2 {
+    border: 2px solid #2a67bc;
+    color: #2a67bc;
+    font-weight: 500;
+    padding: 10px;
+}
+
+button.btn.btn-outline-primary.fix-size.mt-2:hover {
+    background-color: #2a67bc;
+    color: #fff;
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.input-group-addon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+i.fa.fa-eye-slash {
+    color: #4f4f4fb3;
+}
+
+i.fa.fa-eye {
+    color: #4f4f4fb3;
+}
+
+.input-group-addon.cr_con {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+div#show_hide_password {
+    position: relative;
+}
+
+.main-cardwe {
+    display: none;
+}
+
+.Create_Account {
+    display: none;
+}
+
+.choic_yn {
+    text-align: center;
+}
+
+.yes_no_choics {
+    display: none;
+}
+
+.InsuranceModal::-webkit-scrollbar-track {
+    display: none;
+}
+
+.InsuranceModal::-webkit-scrollbar {
+    display: none;
+}
+
+.InsuranceModal::-webkit-scrollbar-thumb {
+    display: none;
+}
+.InsuranceModal::-webkit-scrollbar-track {
+    display: none;
+}
+
+/* .InsuranceModal::-webkit-scrollbar {
+    display: none;
+}
+
+.InsuranceModal::-webkit-scrollbar-thumb {
+    display: none;
+}
+.InsuranceModal::-webkit-scrollbar-track {
+    display: none;
+}
+
+.InsuranceModal::-webkit-scrollbar {
+    display: none;
+}
+
+.InsuranceModal::-webkit-scrollbar-thumb {
+    display: none;
+} */
+
+input[type="checkbox" i] {
+    background-color: #000;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    /* padding:  !important; */
+    width: 19px;
+    height: 18px;
+}
+
+/* Insurance Modal Css */
+.InsuranceModal .modal-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.0044em;
+    /* padding-bottom: 20px; */
+    color: #000000;
+}
+
+.InsuranceModal .modal-dialog {
+    border-radius: 8px;
+    max-width: 550px;
+}
+
+.InsuranceModal .drivinglic h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 12px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 0.0044em;
+    color: #000000;
+}
+
+.InsuranceModal .FBimage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InsuranceModal .FBimage .front {
+    position: relative;
+    width: 230px;
+    height: 148px;
+    border: 1px solid #2A68BB;
+    border-radius: 8px;
+}
+
+.InsuranceModal .FBimage .camera {
+    position: absolute;
+    bottom: -12px;
+    left: 7px;
+    cursor: pointer;
+}
+
+.InsuranceModal .FBimage .uploadfile {
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    cursor: pointer;
+}
+
+.InsuranceModal .FBimage .uploadfile label {
+    cursor: pointer;
+}
+
+.InsuranceModal .FBimage .openimage {
+    position: absolute;
+    bottom: -12px;
+    left: 72px;
+    cursor: pointer;
+}
+
+.InsuranceModal .FBimage .back {
+    position: relative;
+    width: 230px;
+    height: 148px;
+    border: 1px solid #2A68BB;
+    border-radius: 8px;
+}
+
+.InsuranceModal .FBimage .back img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.InsuranceModal .FBimage .front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.InsuranceModal .cashpaye {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.InsuranceModal .down-form .primary-up {
+    margin-top: 20px;
+}
+
+.InsuranceModal .down-form label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: #747474;
+    margin-bottom: 5px;
+}
+
+.InsuranceModal .down-form input {
+    border: 1px solid #DCE2E4;
+    border-radius: 4px;
+    height: 38px;
+    padding: 7px 11px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    background: #F8F8F8;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+}
+
+.InsuranceModal .down-form input::placeholder {
+    color: #000000;
+}
+
+.InsuranceModal .modal-footerrr {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 14px;
+    margin-top: 10px;
+}
+
+.InsuranceModal .button-modal-patient {
+    background: #2A68BB;
+    border-radius: 4px;
+    width: 77px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.InsuranceModal .prrimarryinsu h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.0044em;
+    color: #000000;
+    /* padding-bottom: 10px; */
+    margin-bottom: 15px;
+}
+
+.InsuranceModal .insurance-body .headsave h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.InsuranceModal .insurance-body .headsave h5 span {
+    color: #B9B9B9;
+    padding-right: 12px;
+}
+
+.InsuranceModal .modal-header .bottonhistory {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    position: absolute;
+    right: 20px;
+    top: 38px;
+    color: #fff;
+    opacity: 1;
+    transition: 1s ease-in-out;
+    height: 32px;
+    width: 60px;
+    padding: 7px;
+    border: none;
+    border: 1px solid #2A68BB;
+    margin: 0px;
+    background: #2A68BB;
+    border-radius: 4px;
+}
+
+.InsuranceModal .down-form .mailing-radio-btn p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+}
+
+.InsuranceModal .pleaseprovide h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+    padding-bottom: 6px;
+}
+
+.InsuranceModal .down-form .mailing-radio-btn .form-check-inline {
+    margin-right: 0px;
+}
+
+.InsuranceModal .mailing-radio-btn .form-check-inline {
+    margin-right: 0px;
+}
+
+.InsuranceModal .mailing-radio-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InsuranceModal .down-form .mailing-radio-btn label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+}
+
+.InsuranceModal .modal-header .bottonhistory:hover {
+    background-color: transparent;
+    border: 1px solid #2A68BB;
+    color: #2A68BB;
+}
+
+.InsuranceModal .modal-header {
+    border-bottom: none;
+    padding: 0px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-align: center;
+}
+
+.InsuranceModal .modal-content {
+    padding: 20px;
+}
+
+.InsuranceModal .modal-body {
+    padding: 0px;
+}
+
+/* Insurrance Modal Css End Here */
+
+/* View Zoom Image Modal Start */
+.viewidcardmodal .modal-content {
+    padding: 0px;
+}
+
+.viewidcardmodal .close {
+    font-size: 1.3rem;
+    font-weight: 300;
+    position: absolute;
+    right: -25px;
+    top: -27px;
+    color: #fff;
+    opacity: 1;
+    height: 26px;
+    width: 26px;
+    padding: 7px;
+    padding-top: 1px;
+    padding-left: 6.5px;
+    margin: 0px;
+    background: #2A68BB;
+    border-radius: 4px;
+}
+
+.modal.viewidcardmodal  {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(5px);
+}
+
+/* View Zoom Image Modal End */
+
+
+/* Pateint Modal All CSS */
+.PatientModal .modal-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.0044em;
+    padding-bottom: 20px;
+    color: #000000;
+}
+
+.PatientModal {
+    /* position: relative; */
+}
+
+.PatientModal .down-form .form-group {
+    text-align: start;
+}
+
+.PatientModal .down-form {
+    margin-top: 37px;
+}
+
+.PatientModal .main-rrrr {
+    position: relative;
+}
+
+.asasas {
+    position: absolute;
+    right: 10px;
+    top: 32px;
+}
+
+.PatientModal .down-form input {
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #3192BF;
+    border-radius: 4px;
+    padding: 7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+}
+
+.PatientModal .down-form input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #B9B9B9;
+}
+
+.PatientModal .modal-footerrr {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 14px;
+    margin-top: 10px;
+}
+
+.PatientModal .button-modal-patient {
+    background: #2A68BB;
+    border-radius: 4px;
+    width: 77px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.PatientModal .modal-body {
+    padding: 0px;
+}
+
+.PatientModal .down-form .mailing-radio-btn .form-check-inline {
+    margin-right: 0px;
+}
+
+.PatientModal .mailing-radio-btn p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+}
+
+.PatientModal .down-form .emergency-radio .form-check-inline {
+    margin-right: 0px;
+}
+
+.PatientModal .down-form .mailing-radio-btn label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+}
+
+.PatientModal .down-form .emergency-choices label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+}
+
+.PatientModal .down-form .emergency-radio p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+}
+
+.PatientModal .down-form .emergency-radio label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+}
+
+.PatientModal .heading-top {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.0044em;
+    padding-top: 10px;
+    color: #000000;
+}
+
+.PatientModal .mailing-radio-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PatientModal .down-form select {
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #3192BF;
+    border-radius: 4px;
+    padding: 7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+}
+
+.PatientModal .down-form select::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #B9B9B9;
+}
+
+.PatientModal .down-form label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    margin-bottom: 5px;
+    color: #747474;
+}
+
+.PatientModal .modal-dialog {
+    /* background: #FFFFFF; */
+    /* border: 1px solid #E7E7E7; */
+    border-radius: 8px;
+    max-width: 935px;
+}
+
+.PatientModal .modal-header .close {
+    /* font-size: 1.3rem;
+    font-weight: 300; */
+    position: absolute;
+    right: 20px;
+    top: 41px;
+    opacity: 1;
+    /* color: #fff;
+    opacity: 1;
+    height: 26px;
+    width: 26px;
+    padding: 7px;
+    padding-top: 1px;
+    padding-left: 6.5px;
+    margin: 0px;
+    background: #2A68BB;
+    border-radius: 4px; */
+}
+
+.PatientModal .modal-header {
+    border-bottom: none;
+    padding: 0px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-align: center;
+}
+
+.PatientModal .modal-content {
+    padding: 20px;
+}
+
+.PatientModal .upload-profile {
+    width: 30px;
+    height: 30px;
+    background-color: #2A68BB;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 32px;
+    right: -2px;
+    cursor: pointer;
+}
+
+.PatientModal .upload-profile input {
+    opacity: 0;
+    position: absolute;
+    width: 30px;
+    border-radius: 50px;
+    height: 30px;
+}
+
+.PatientModal svg:not(:root) {
+    overflow: hidden;
+}
+
+.PatientModal .upload-profile svg {
+    fill: #fff;
+    width: 18px;
+    height: 18px;
+}
+
+.PatientModal .capture-dp {
+    width: 30px;
+    height: 30px;
+    background-color: #2A68BB;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -2px;
+    right: 34px;
+    cursor: pointer;
+}
+
+.PatientModal svg:not(:root) {
+    overflow: hidden;
+}
+
+.PatientModal .capture-dp svg {
+    fill: #fff;
+}
+
+.PatientModal .patient-profile img {
+    /* border: 3px solid #3192BF;
+    border-radius: 50%; */
+    /* max-width: 220px; */
+    width: 100%;
+}
+
+.PatientModal .patient-profile {
+    border: 1px solid #2A68BB;
+    border-radius: 50%;
+    max-width: 201px;
+    height: 201px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+/* Patient Modal All Css End */
+/* .modal {
+    overflow: auto !important;
+} */
+/* insurance history css */
+
+.insurance-history .modal-header button{
+    opacity: 1;
+}
+.modal.insurance-history  {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(5px);
+}
+
+.insurance-history .modal-content {
+    padding: 25px;
+}
+
+.insurance-history .modal-dialog {
+    max-width: 580px;
+}
+
+.insurance-history .modal-header {
+    justify-content: center;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.insurance-history .modal-header h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.0044em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.insurance-history .modal-header button {
+    border: none;
+    outline: none;
+}
+
+.insurance-history .modal-header .close-modal {
+    position: absolute;
+    top: 29px;
+    right: 22px;
+    z-index: 999;
+    opacity: 1;
+}
+
+.insurance-history .upper-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.insurance-history .upper-content .left {
+    display: flex;
+    align-items: center;
+}
+
+.insurance-history .upper-content .left .option-field label {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #B9B9B9;
+    margin-bottom: 3px !important;
+}
+
+.insurance-history .upper-content .left .option-field input {
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #C3C9CC;
+    border-radius: 4px;
+    margin-right: 8px;
+    padding: 7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+
+.insurance-history .upper-content .right button {
+    background: #2A68BB;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    white-space: nowrap;
+    border: none;
+    outline: none;
+    padding: 6px 10px;
+    cursor: pointer;
+
+}
+
+.insurance-history .upper-content .right button img {
+    margin-right: 6px;
+}
+
+.insurance-history .bottom-content .table {
+    margin: 0 !important;
+}
+
+.insurance-history .bottom-content {
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 8px;
+}
+
+.insurance-history .bottom-content .table th {
+    border-top: none;
+    background-color: #2A68BB;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.insurance-history .bottom-content .table td {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    text-align: center;
+    border-right: 1px solid #DFE9EF;
+}
+
+.insurance-history .bottom-content .table td:last-child {
+    border-right: none !important;
+}
+
+.insurance-history .bottom-content .table .detail-btn {
+    border: none;
+    outline: none;
+    border: 1px solid #2A68BB;
+    border-radius: 4px;
+    padding: 5px 3px;
+    background-color: transparent;
+    white-space: nowrap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #2A68BB;
+}
+
+.insurance-history .cvvsv {
+    line-height: 27px !important;
+}
+
+.insurance-history .table-striped tbody tr:nth-of-type(odd) {
+    background: #EFF6FA !important;
+}
+
+.insurance-history .top-left {
+    border-radius: 8px 0 0 0;
+}
+
+.insurance-history .top-right {
+    border-radius: 0px 8px 0 0;
+}
+
+
+/* transaction history csss */
+
+.transaction-history .modal {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(5px);
+}
+
+.transaction-history .modal-content {
+    padding: 25px;
+}
+
+.transaction-history .modal-dialog {
+    max-width: 580px;
+}
+
+.transaction-history .modal-header {
+    justify-content: center;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.transaction-history .modal-header h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.0044em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.transaction-history .modal-header button {
+    border: none;
+    outline: none;
+}
+
+.transaction-history .modal-header .close-modal {
+    position: absolute;
+    top: 29px;
+    right: 22px;
+    z-index: 999;
+}
+
+.transaction-history .upper-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.transaction-history .upper-content .left {
+    display: flex;
+    align-items: center;
+}
+
+.transaction-history .upper-content .left .option-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction-history .upper-content .left .option-field ul {
+    margin: 0;
+    margin-left: 10px !important;
+}
+
+.transaction-history .upper-content .left .option-field ul li a {
+    background: #2A68BB;
+    padding: 9px 16px !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.transaction-history .upper-content .left .option-field ul li .active {
+    color: #6D94C9 !important;
+}
+
+.transaction-history .upper-content .left .option-field .left-btn {
+    background: #2A68BB;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    outline: none;
+    padding: 9px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction-history .upper-content .left .option-field .right-btn {
+    background: #2A68BB;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    outline: none;
+    padding: 9px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction-history .upper-content .right button {
+    background: #2A68BB;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    white-space: nowrap;
+    border: none;
+    outline: none;
+    padding: 6px 10px;
+    cursor: pointer;
+
+}
+
+.transaction-history .bottom-content .table {
+    margin: 0 !important;
+}
+
+.transaction-history .bottom-content {
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 8px;
+}
+
+.transaction-history .bottom-content .table th {
+    border-top: none;
+    background-color: #2A68BB;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.transaction-history .bottom-content .table td {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    text-align: center;
+    border-right: 1px solid #DFE9EF;
+}
+
+.transaction-history .bottom-content .table td:last-child {
+    border-right: none !important;
+}
+
+.transaction-history .bottom-content .table .detail-btn {
+    border: none;
+    outline: none;
+    border: 1px solid #2A68BB;
+    border-radius: 4px;
+    padding: 5px 3px;
+    background-color: transparent;
+    white-space: nowrap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #2A68BB;
+}
+
+.transaction-history .cvvsv {
+    line-height: 47px !important;
+}
+
+.transaction-history .table-striped tbody tr:nth-of-type(odd) {
+    background: #EFF6FA !important;
+}
+
+.transaction-history .top-left {
+    border-radius: 8px 0 0 0;
+}
+
+.transaction-history .top-right {
+    border-radius: 0px 8px 0 0;
+}
+
+
+/* pharamacy csss.................................. */
+
+.pharmacy-modal .modal{
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(5px);
+}
+
+.pharmacy-modal .modal-content{
+    padding: 25px;
+}
+.pharmacy-modal .modal-dialog{
+    max-width: 1317px;
+}
+
+.pharmacy-modal .modal-header{
+    justify-content: center;
+    margin-bottom: 20px;
+    border: none;
+}
+.pharmacy-modal .modal-header h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.0044em;
+    text-transform: capitalize;
+    color: #000000;
+}
+.pharmacy-modal .modal-header button{
+    border: none;
+    outline: none;
+}
+.pharmacy-modal .modal-header .close-modal{
+    position: absolute;
+    top: 29px;
+    right: 22px;
+    z-index: 999;
+}
+.pharmacy-modal .upper-content{
+    background: #EFF6FA;
+    padding: 22px;
+    margin-bottom: 40px;
+}
+.pharmacy-modal .upper-content h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin: 0;
+}
+
+.pharmacy-modal .mid-items{
+    margin-bottom: 15px;
+}
+
+.pharmacy-modal .mid-items .option-field label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: #747474;
+    display: block;
+}
+.pharmacy-modal .mid-items .option-field input{
+    background: #FFFFFF;
+    border: 1px solid #3192BF;
+    border-radius: 4px;
+    outline: none;
+    padding: 7px 10.23px;
+    width: 100%;
+}
+.pharmacy-modal .mid-items .option-field input::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #B9B9B9;
+}
+.mid-items1{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pharmacy-modal .mid-items1 .option-field{
+    margin-right: 15px;
+}
+.pharmacy-modal .mid-items1 .option-field:last-child{
+    margin-right: 0px !important;
+}
+.pharmacy-modal .mid-items1 .option-field label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: #747474;
+    display: block;
+}
+.pharmacy-modal .mid-items1 .option-field input{
+    background: #FFFFFF;
+    border: 1px solid #3192BF;
+    border-radius: 4px;
+    outline: none;
+    padding: 7px 10.23px;
+    width: 241px;
+}
+
+.mid-items2{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pharmacy-modal .mid-items2 .option-field{
+    margin-right: 15px;
+}
+.pharmacy-modal .mid-items2 .option-field:last-child{
+    margin-right: 0px !important;
+}
+.pharmacy-modal .mid-items2 .option-field label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: #747474;
+    display: block;
+}
+.pharmacy-modal .mid-items2 .option-field input{
+    background: #FFFFFF;
+    border: 1px solid #3192BF;
+    border-radius: 4px;
+    outline: none;
+    padding: 7px 10.23px;
+    width: 167px;
+}
+.pharmacy-modal .mid-items2 .option-field input::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #B9B9B9;
+}
+.pharmacy-modal .mid-items1 .option-field input::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #B9B9B9;
+}
+.pharmacy-modal .mid-items2 .option-field button{
+    background: #2A68BB;
+    border-radius: 4px;
+    padding: 7px 19.5px;
+    border: none;
+    outline: none;
+    margin-top: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #FFFFFF;
+}
+.pharmacy-modal .bottom-content{
+    margin-bottom: 40px;
+}
+
+.pharmacy-modal .bottom-content .table{
+    margin: 0 !important;
+}
+.pharmacy-modal .bottom-content{
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 8px;
+}
+
+.pharmacy-modal .bottom-content .table th{
+    border-top: none;
+    background-color: #2A68BB;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-align: center;
+}
+.pharmacy-modal .bottom-content .table td{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    text-align: center;
+    border-right: 1px solid #DFE9EF;
+}
+.pharmacy-modal .bottom-content .table td button{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.pharmacy-modal .bottom-content .table td:last-child{
+    border-right: none !important;
+}
+.pharmacy-modal .bottom-content .table .detail-btn{
+    border: none;
+    outline: none;
+    border: 1px solid #2A68BB;
+    border-radius: 4px;
+    padding: 5px 3px;
+    background-color: transparent;
+    white-space: nowrap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #2A68BB;
+}
+.pharmacy-modal .cvvsv{
+    line-height: 27px !important;
+}
+
+.pharmacy-modal .table-striped tbody tr:nth-of-type(odd){
+    background: #EFF6FA !important;
+}
+
+.pharmacy-modal .top-left{
+    border-radius: 8px 0 0 0;
+}
+.pharmacy-modal .top-right{
+    border-radius: 0px 8px 0 0;
+}
+
+.pharmacy-modal .modal-header .close-modal{
+    opacity: 1;
+}
+
+/* pharmacy media query ......................... */
+
+@media (max-width:600px){
+    .pharmacy-modal .pdr{
+        padding-right: 15px !important;
+    }
+    .pharmacy-modal .option-field{
+        padding-bottom: 15px;
+    }
+    .pharmacy-modal .mid-items1{
+        width: 100%;
+    }
+    .pharmacy-modal .mid-items1 .option-field{
+        width: 100%;
+        margin-right: 0 !important;
+    }
+    .pharmacy-modal .mid-items1 .option-field input{
+        width: 100%;
+    }
+    .pharmacy-modal .bottom-content{
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    .pharmacy-modal .mid-items2{
+        width: 100%;
+    }
+    .pharmacy-modal .mid-items2 .option-field{
+        width: 100%;
+        margin-right: 0 !important;
+    }
+    .pharmacy-modal .mid-items2 .option-field input{
+        width: 100%;
+    }
+    .pharmacy-modal .bottom-content .table td{
+        white-space: nowrap;
+    }
+}
+
+
+/* data table csss.................................. */
+
+.data-table .modal{
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(5px);
+}
+
+.data-table .page-item.active .page-link{
+    background-color: #2A68BB;
+    border-color: #2A68BB;
+}
+.page-link{
+    color: #2A68BB;
+}
+
+.data-table table.dataTable thead>tr>th.sorting:before, table.dataTable thead>tr>th.sorting_asc:before, table.dataTable thead>tr>th.sorting_desc:before, table.dataTable thead>tr>th.sorting_asc_disabled:before, table.dataTable thead>tr>th.sorting_desc_disabled:before, table.dataTable thead>tr>td.sorting:before, table.dataTable thead>tr>td.sorting_asc:before, table.dataTable thead>tr>td.sorting_desc:before, table.dataTable thead>tr>td.sorting_asc_disabled:before, table.dataTable thead>tr>td.sorting_desc_disabled:before {
+    bottom: 50%!important;
+    content: "▴"!important;
+}
+.data-table table.dataTable thead>tr>th.sorting:before, table.dataTable thead>tr>th.sorting:after, table.dataTable thead>tr>th.sorting_asc:before, table.dataTable thead>tr>th.sorting_asc:after, table.dataTable thead>tr>th.sorting_desc:before, table.dataTable thead>tr>th.sorting_desc:after, table.dataTable thead>tr>th.sorting_asc_disabled:before, table.dataTable thead>tr>th.sorting_asc_disabled:after, table.dataTable thead>tr>th.sorting_desc_disabled:before, table.dataTable thead>tr>th.sorting_desc_disabled:after, table.dataTable thead>tr>td.sorting:before, table.dataTable thead>tr>td.sorting:after, table.dataTable thead>tr>td.sorting_asc:before, table.dataTable thead>tr>td.sorting_asc:after, table.dataTable thead>tr>td.sorting_desc:before, table.dataTable thead>tr>td.sorting_desc:after, table.dataTable thead>tr>td.sorting_asc_disabled:before, table.dataTable thead>tr>td.sorting_asc_disabled:after, table.dataTable thead>tr>td.sorting_desc_disabled:before, table.dataTable thead>tr>td.sorting_desc_disabled:after {
+    position: absolute;
+    display: block;
+    opacity: .125;
+    right: 10px;
+    line-height: 9px;
+    font-size: .9em;
+}
+
+.data-table table.dataTable thead>tr>th.sorting:after, table.dataTable thead>tr>th.sorting_asc:after, table.dataTable thead>tr>th.sorting_desc:after, table.dataTable thead>tr>th.sorting_asc_disabled:after, table.dataTable thead>tr>th.sorting_desc_disabled:after, table.dataTable thead>tr>td.sorting:after, table.dataTable thead>tr>td.sorting_asc:after, table.dataTable thead>tr>td.sorting_desc:after, table.dataTable thead>tr>td.sorting_asc_disabled:after, table.dataTable thead>tr>td.sorting_desc_disabled:after {
+    top: 50%!important;
+    content: "▾"!important;
+}
+.data-table table.dataTable thead>tr>th.sorting:before, table.dataTable thead>tr>th.sorting:after, table.dataTable thead>tr>th.sorting_asc:before, table.dataTable thead>tr>th.sorting_asc:after, table.dataTable thead>tr>th.sorting_desc:before, table.dataTable thead>tr>th.sorting_desc:after, table.dataTable thead>tr>th.sorting_asc_disabled:before, table.dataTable thead>tr>th.sorting_asc_disabled:after, table.dataTable thead>tr>th.sorting_desc_disabled:before, table.dataTable thead>tr>th.sorting_desc_disabled:after, table.dataTable thead>tr>td.sorting:before, table.dataTable thead>tr>td.sorting:after, table.dataTable thead>tr>td.sorting_asc:before, table.dataTable thead>tr>td.sorting_asc:after, table.dataTable thead>tr>td.sorting_desc:before, table.dataTable thead>tr>td.sorting_desc:after, table.dataTable thead>tr>td.sorting_asc_disabled:before, table.dataTable thead>tr>td.sorting_asc_disabled:after, table.dataTable thead>tr>td.sorting_desc_disabled:before, table.dataTable thead>tr>td.sorting_desc_disabled:after {
+    position: absolute;
+    display: block;
+    opacity: .125;
+    right: 10px;
+    line-height: 9px;
+    font-size: .9em;
+}
+
+.data-table .modal-content{
+    padding: 25px;
+}
+.data-table .modal-dialog{
+    max-width: 950px;
+}
+
+.data-table .modal-header{
+    justify-content: center;
+    margin-bottom: 20px;
+    border: none;
+}
+.data-table .modal-header h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.0044em;
+    text-transform: capitalize;
+    color: #000000;
+}
+.data-table .modal-header button{
+    border: none;
+    outline: none;
+}
+.data-table .modal-header .close-modal{
+    position: absolute;
+    top: 29px;
+    right: 22px;
+    z-index: 999;
+}
+
+
+
+
+.data-table .table{
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7 !important;
+    border-radius: 8px;
+}
+.data-table .cvvv1{
+    border-radius: 8px 0 0 0;
+}
+.data-table .cvvv2{
+    border-radius: 0px 8px 0 0;
+}
+.data-table .table th{
+    border-top: none;
+    background-color: #2A68BB;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-align: center;
+    white-space: nowrap;
+}
+.data-table .table td{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    text-align: center;
+    border-right: 1px solid #DFE9EF;
+    white-space: nowrap;
+}
+.data-table  table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting_asc_disabled, table.dataTable thead>tr>th.sorting_desc_disabled, table.dataTable thead>tr>td.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting_asc_disabled, table.dataTable thead>tr>td.sorting_desc_disabled {
+    cursor: pointer;
+    position: relative;
+    padding-right: 26px;
+}
+.data-table .table td button{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.data-table .table td:last-child{
+    border-right: none !important;
+}
+.data-table .table .detail-btn{
+    border: none;
+    outline: none;
+    border: 1px solid #2A68BB;
+    border-radius: 4px;
+    padding: 5px 3px;
+    background-color: transparent;
+    white-space: nowrap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #2A68BB;
+}
+.data-table .cvvsv{
+    line-height: 27px !important;
+}
+
+.data-table .table-striped tbody tr:nth-of-type(odd){
+    background: #EFF6FA !important;
+}
+
+.data-table .top-left{
+    border-radius: 8px 0 0 0;
+}
+.data-table .top-right{
+    border-radius: 0px 8px 0 0;
+}
+
+.data-table .modal-header .close-modal{
+    opacity: 1;
+}
+
+
+.data-table div.dataTables_wrapper div.dataTables_filter input{
+    background: #FFFFFF;
+    border: 1px solid #3192BF;
+    border-radius: 4px;
+    outline: none;
+    padding: 7px 5px;
+}
+div.dataTables_wrapper div.dataTables_filter input{
+    margin-left: 0.5em!important;
+    display: inline-block!important;
+    width: auto!important;
+}
+
+.data-table div.dataTables_wrapper div.dataTables_length select{
+    background: #FFFFFF;
+    border: 1px solid #3192BF;
+    border-radius: 4px;
+    outline: none;
+}
+
+.data-table div.dataTables_wrapper div.dataTables_filter label{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 0.03em;
+color: #747474;
+}
+.data-table div.dataTables_wrapper div.dataTables_filter label{
+    white-space: nowrap;
+}
+
+.data-table table.dataTable thead>tr>th.sorting_asc:before, table.dataTable thead>tr>th.sorting_desc:after, table.dataTable thead>tr>td.sorting_asc:before, table.dataTable thead>tr>td.sorting_desc:after{
+    opacity: 1 !important;
+}
+.data-table table.dataTable thead>tr>th.sorting:after, table.dataTable thead>tr>th.sorting_asc:after, table.dataTable thead>tr>th.sorting_desc:after, table.dataTable thead>tr>th.sorting_asc_disabled:after, table.dataTable thead>tr>th.sorting_desc_disabled:after, table.dataTable thead>tr>td.sorting:after, table.dataTable thead>tr>td.sorting_asc:after, table.dataTable thead>tr>td.sorting_desc:after, table.dataTable thead>tr>td.sorting_asc_disabled:after, table.dataTable thead>tr>td.sorting_desc_disabled:after{
+    opacity: 1 !important;
+}
+.data-table div.dataTables_wrapper div.dataTables_length label{
+    font-weight: normal!important;
+    text-align: left!important;
+    white-space: nowrap!important;
+}
+.data-table .custom-select{
+    display: inline!important;
+    width: auto!important;
+    display: inline-block!important;
+}
+.data-table .export-btn{
+    background: #2A68BB;
+    border-radius: 4px;
+    padding: 7px 20px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+.data-table div.dataTables_wrapper div.dataTables_filter {
+    text-align: right;
+    margin-right: 134px;
+}
+.data-table div.dataTables_wrapper div.dataTables_paginate ul.pagination{
+    justify-content: flex-end;
+}
+
+@media (max-width:600px){
+    .data-table .row .col-sm-12:first-child{
+        overflow: scroll !important;
+    }
+    .data-table div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate{
+        text-align: start;
+    }
+    .export-btn .export-mbl{
+        display: none !important;
+    }
+    .export-btn {
+        padding: 7px 13px;
+        top: 36.5px !important;
+    }
+    .export-btn img{
+        margin: 0 !important;
+    }
+    .data-table div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate{
+        margin-left: 7px;
+    }
+    .data-table div.dataTables_wrapper div.dataTables_length select{
+        margin-left: 13px !important;
+    }
+}
+
+
+@media (max-width:360px) {
+    .export-btn {
+        top: 0px !important;
+    }
+    .data-table .modal-header .close-modal {
+        position: absolute;
+        top: 12px;
+        right: 7px;
+        z-index: 999;
+    }
+}
+
+
+
+
+.form-check {
+    position: relative;
+    padding-left: 0px;
+}
+
+.col.text-right a {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.text-center p {
+    display: flex;
+    justify-content: center;
+}
+
+label.form-label.password {
+    left: 20px;
+}
+
+.form-outline .form-control {
+    border: 1px solid #2a67bc;
+}
+
+.form-outline .form-control~.form-label {
+    /*position: absolute;*/
+    top: 14px;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    left: 1rem;
+    padding-top: .37rem;
+    pointer-events: none;
+    transform-origin: 0 0;
+    transition: all .2s ease-out;
+    color: rgba(0, 0, 0, .6);
+    margin-bottom: 0;
+}
+
+.choic_yn.mb-4 p {
+    margin-bottom: 8px;
+}
+
+.form-outline .form-control {
+    padding: 7px 7px;
+}
+
+.col.ftp {
+    text-align: end;
+}
+
+.form-check-input[type=radio]:checked:after {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border-color: #1266f1;
+    background-color: #1266f1;
+    transition: border-color;
+    transform: translate(-50%, -50%);
+    /* position: absolute; */
+    left: 50%;
+    top: 50%;
+}
+
+input[type="checkbox" i]:checked:after {
+    color: #000;
+}
+
+.form-check-inline .form-check-input {
+    position: static;
+    margin-top: 0;
+    margin-right: 14px;
+    margin-left: 0;
+}
+
+.text-cent a {
+    font-weight: 500;
+}
+
+a {
+    color: #2a67bc;
+}
+
+.col.ftp a {
+    text-decoration: underline;
+}
+
+.text-cent {
+    text-align: center;
+}
+
+p.check-box-left {
+    text-align: left;
+    display: flex;
+}
+
+.form-check-input[type=radio]:checked:after {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border-color: #000000 !important;
+    background-color: #1266f1 !important;
+    /* transition: border-color; */
+    transform: translate(-50%, -50%);
+    /* position: absolute; */
+    left: 50%;
+    top: 50%;
+}
+
+.form-check-input:checked {
+    border-color: #000000;
+}
+
+.form-check-input[type=radio] {
+    border: 1px solid;
+}
+
+a.btn.btn-primary.inpe {
+    padding: 3px 40px;
+}
+
+.col.psychiatrist {
+    border-right: 1.5px solid #00000029;
+}
+
+@media (max-width: 1550px) {
+    .text-center p {
+        display: flex;
+        justify-content: center;
+        padding: 6px 6px;
+    }
+
+    .login_form .col-3 .sing_in {
+        padding: 150px 0px;
+    }
+
+    .login_form .col-3 {
+        overflow-y: auto !important;
+        height: 100vh;
+    }
+
+    .login_form .col-9 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+        flex: 0 0 66.67%;
+        max-width: 66.67%;
+    }
+
+    .login_form .col-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+
+    .login_form .col-3 {
+        margin: auto 0;
+        padding: 20px 50px;
+    }
+
+    .login_form h3 {
+        text-align: center;
+        padding: 6px 0px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .form-control {
+        padding: 8px 18px;
+    }
+
+    label.form-label {
+        left: 60px;
+        padding: 0px 5px;
+    }
+
+    .col.ftp {
+        text-align: rights;
+    }
+}
+
+@media (max-width: 1400px) {
+    .col.d-flex.justify-content-left {
+        padding-right: 0px !important;
+        padding-left: 9px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .login_form h3 {
+        text-align: center;
+        padding: 30px 0px;
+        font-size: 28px;
+    }
+
+    .login_form .col-9 {
+        padding: 0px;
+        margin: 0px;
+        display: none;
+    }
+
+    .login_form .col-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 100.333333%;
+        max-width: 100%;
+        height: 100vh !important;
+        display: grid;
+        align-items: center;
+    }
+
+    .form-control {
+        padding: 8px 18px;
+    }
+
+    .login_form .col-3 {
+        margin: auto 0;
+        padding: 30px 185px;
+        margin-bottom: 35px;
+    }
+
+    label.form-label {
+        background-color: #fff;
+        position: absolute;
+        left: 212px;
+        margin: -12px;
+        padding: 0px 11px;
+        font-size: 16px;
+        color: #2A67BC;
+    }
+
+    .site_logo img {
+        width: 300px;
+    }
+
+    label.form-label.password {
+        left: 27px;
+    }
+}
+@media (max-width: 600px) {
+    .llo{
+        padding-right: 15px;
+    }
+    .PatientModal .mailing-radio-btn p{
+        width: 204px;
+    }
+    .olll{
+        justify-content: center;
+    }
+    .InsuranceModal .FBimage{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .InsuranceModal .FBimage .front{
+        margin-bottom: 30px;
+    }
+    .InsuranceModal .modal-header{
+        justify-content: start;
+    }
+    .InsuranceModal .FBimage .front{
+        width: 100%;
+        height: 230px;
+    }
+    .InsuranceModal .FBimage .back{
+        width: 100%;
+        height: 230px;
+    }
+    .mobilemmm{
+        left: -184px!important;
+    }
+    .InsuranceModal .down-form .mailing-radio-btn p{
+        width: 200px;
+    }
+    .kkkook{
+        width: 200px;
+    }
+    .credit-modal .upper-content .table thead th{
+        white-space: nowrap;
+    }
+}
+@media (max-width: 400px) {
+    .InsuranceModal .modal-title{
+        font-size: 24px;
+    }
+    .InsuranceModal .modal-header .bottonhistory{
+        top: 29px;
+    }
+}
+@media (max-width: 425px) {
+    .login_form .col-3 {
+        margin: auto 0;
+        padding: 35px 40px;
+        margin-bottom: 0px;
+    }
+
+    label.form-label {
+        background-color: #fff;
+        position: absolute;
+        left: 68px;
+        margin: -12px;
+        padding: 0px 11px;
+        font-size: 16px;
+        color: #2A67BC;
+    }
+
+    .site_logo img {
+        width: 250px;
+    }
+
+    .text-center {
+        margin-bottom: 30px;
+    }
+
+    label.form-check-label_box {
+        font-size: 15px;
+    }
+
+    .col.text-right a {
+        font-size: 13px;
+    }
+
+    button.btn {
+        width: 100%;
+    }
+
+    .text-center p {
+        display: contents;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .login_form .col-3 {
+        margin: auto 0;
+        padding: 35px 25px;
+        margin-bottom: 0px;
+    }
+}
+
+/*book an appointment css*/
+span.lf_ri {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.navbar.navbar-expand-xl.navbar-dark.bg-dark {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.lf_ri .btn.btn-primary {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+a.btn.btn-outline-primary.one {
+    width: 25%;
+    display: none;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+body .book_an_appointment {
+    background-color: #0000000a;
+}
+
+nav.navbar.navbar-expand-xl.navbar-dark.bg-dark {
+    padding: 0px 110px 0px 110px;
+}
+
+/*.book_an_appointment{
+    display: none;
+}*/
+.bg-dark {
+    background-color: #1E1E1E !important;
+}
+
+ul.navbar-nav.mr-auto svg {
+    color: #fff;
+}
+
+a.navbar-brand img {
+    width: 178px;
+}
+
+ul.navbar-nav.mr-auto {
+    margin: auto;
+}
+
+li.nav-item {
+    text-align: center;
+    padding: 0px 15px;
+}
+
+li.nav-item.fast {
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.book-appoi {
+    text-align: center;
+    padding: 30px;
+    margin: 40px 0;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px -4px #888888;
+}
+
+.buttones_two .btn.btn-primary {
+    padding: 10px 52px;
+    background-color: #2A67BC;
+    margin-right: 20px;
+    width: 22%;
+    border: 2px solid #2a67bc;
+    font-weight: 500;
+}
+
+.book_an_appointment .btn.btn-primary:hover {
+    background: #fff;
+    border: 2px solid #2a67bc;
+    color: #2a67bc;
+    font-weight: 500;
+}
+
+.site_hadding h4 {
+    margin: 0px 0px 20px 0px;
+    font-weight: 700;
+}
+
+.buttones_two .btn.btn-outline-primary {
+    width: 90%;
+    font-size: 18px;
+    position: relative;
+}
+
+a.btn.btn-outline-primary.pic {
+    padding: 3px 6px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid;
+}
+
+.btn-outline-primary {
+    color: #2a67bc;
+    background-color: #fff;
+    border-color: #2a67bc;
+    border: 3px solid;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #2a67bc;
+    border-color: #2a67bc;
+}
+
+.upcoming_appointments .col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.first_last {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px -4px #888888;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 15px;
+    margin-bottom: 40px;
+}
+
+.your-care-team,
+.upcoming-appointments {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px -4px #888888;
+    padding: 23px 23px 5px 23px;
+    margin-left: 15px;
+}
+
+.editer svg {
+    position: absolute;
+    top: 11%;
+    right: 6%;
+    color: #2a67bc;
+}
+
+.user_name {
+    padding: 0 20px;
+}
+
+.team-member .btn.btn-primary {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 20px 15px 0px;
+    border: 2px solid #2a67bc !important;
+    font-weight: 500;
+    background-color: #2a67bc;
+    border-color: #2a67bc;
+}
+
+.hd_wi_icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hd_wi_icon svg {
+    color: #2a67bc;
+}
+
+.icon_list ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.icon_list i {
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.icon_list li {
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+li.lf_ri {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay_pre .btn {
+    width: 100%;
+    padding: 9px;
+    margin: 8px 0;
+    font-weight: 500;
+    border: 2px solid #2a67bc !important;
+}
+
+.book_an_appointment .btn.btn-primary {
+    background-color: #2a67bc;
+    border-color: #2a67bc;
+    border: 2px solid #2a67bc;
+    font-weight: 500;
+}
+
+.upcoming-appointments.sec_section {
+    padding: 45px 40px 0px 40px;
+    height: 100%;
+}
+
+.medication {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px -4px #888888;
+    padding: 40px;
+    margin: 40px 0px;
+}
+
+.footr-menu {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px -4px #888888;
+    padding: 10px;
+}
+
+.Escitalopram table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+i.fas.fa-check {
+    color: #04AE01;
+    margin: 0px 10px;
+}
+
+.md_list {
+    padding: 10px 0px 10px 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.view-medication-history {
+    text-align: center;
+}
+
+.view-medication-history .btn.btn-primary {
+    padding: 10px 15px;
+}
+
+.footr-menu .navbar-nav.mr-auto svg {
+    color: #2A67BC;
+}
+
+.footr-menu .navbar {
+    box-shadow: NONE;
+    padding-top: .5625rem;
+}
+
+.footr-menu a {
+    color: #2A67BC !important;
+}
+
+.footr-menu i {
+    font-size: 25px;
+    color: #2A67BC;
+}
+
+.footr-menu li.nav-item {
+    border: 2px solid #2a67bc;
+    padding: 10px;
+    margin: 10px;
+    width: 180px;
+    border-radius: 11px;
+}
+
+.reddot:before {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    content: "";
+    background: #f00;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.book-appoi.mobhil_view {
+    display: none;
+}
+
+.upcom_appoint_mobhil_view {
+    display: none;
+}
+
+.medication_mobhil_view {
+    display: none;
+}
+
+.footr-menu_mobhil_view {
+    display: none;
+}
+
+.footr-menu li.nav-item:hover {
+    background-color: #2a67bc;
+    transition: 0.5s;
+}
+
+/*.col.therapist {
+    display: grid;
+    align-content: space-between;
+}*/
+li.nav-item:hover .nav-link {
+    color: #fff !important;
+    transition: 0.5s;
+}
+
+li.nav-item:hover i {
+    color: #fff !important;
+    transition: 0.5s;
+}
+
+li.nav-item:hover svg {
+    color: #fff !important;
+    transition: 0.5s;
+}
+
+/*.active_box {
+    border: 1px solid;
+    padding: 8px 8px 0px 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}*/
+.comments_me h6 {
+    margin-bottom: 0px;
+}
+
+.modal-content {
+    padding: 40px;
+}
+
+/*.yellow {
+    background-color: #ffffe0;
+}
+.blue {
+    background-color: #e0ffff;
+}
+.green {
+ background-color: #90ee9078;
+}*/
+.pro::after {
+    content: "";
+    background: url('../img/plus-icon.png');
+    background-size: 18px;
+    position: absolute;
+    right: 2%;
+    width: 19px;
+    height: 16px;
+    top: 50%;
+    background-repeat: no-repeat;
+    font-weight: 900;
+}
+
+a.btn.btn-outline-primary.two.pro:hover::after {
+    content: "";
+    background: url('../img/plus-icon.png');
+    filter: brightness(0) invert(1);
+    background-size: 18px;
+    position: absolute;
+    right: 2%;
+    width: 19px;
+    height: 16px;
+    top: 50%;
+    background-repeat: no-repeat;
+    font-weight: 900;
+}
+
+a.btn.btn-outline-primary.two.pro:hover::before {
+    background-color: #fff;
+}
+
+@media (max-width: 1550px) {
+    .book_an_appointment .container {
+        max-width: 1355px;
+    }
+
+    .icon_list li {
+        padding: 16px 0px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1440px) {
+    nav.navbar.navbar-expand-xl.navbar-dark.bg-dark {
+        padding: 0px 30px 0px 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    body .book_an_appointment {
+        background-color: #0000000a;
+    }
+
+    .buttones_two .btn.btn-primary {
+        padding: 7px 52px;
+        background-color: #2A67BC;
+        margin-right: 0px;
+        width: 90%;
+        margin: 10px;
+        margin: 10;
+        border: 2px solid #2a67bc;
+        font-weight: 500;
+    }
+
+    .book-appoi.dekstop {
+        display: none;
+    }
+
+    .book-appoi.mobhil_view {
+        display: block;
+    }
+
+    .carousel-indicators .active {
+        background-color: #2a67bc;
+    }
+
+    .carousel-indicators li {
+        position: relative;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        margin-right: 3px;
+        margin-left: 3px;
+        top: 43px;
+        text-indent: -999px;
+        background-color: rgba(255, 255, 255, .5);
+    }
+
+    .carousel-item .btn.btn-outline-primary {
+        width: 65%;
+    }
+
+    .carousel-control-next-icon {
+        filter: invert(1);
+    }
+
+    span.carousel-control-prev-icon {
+        filter: invert(1);
+    }
+
+    .book-appoi.mobhil_view {
+        padding: 38px 8px;
+    }
+
+    .upcoming_appointments .col-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .first_last {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .your-care-team,
+    .upcoming-appointments {
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0px 0px 9px -4px #888888;
+        padding: 40px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .upcom_appoint_mobhil_view {
+        display: block;
+    }
+
+    .upcoming-appointments.sec_section {
+        display: none;
+    }
+
+    .medication {
+        display: none;
+    }
+
+    .medication_mobhil_view {
+        display: block;
+    }
+
+    .your-care-team,
+    .upcoming-appointments {
+        margin-bottom: 40px;
+        padding: 14px;
+    }
+
+    .icon_list li {
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+
+    .md_list {
+        padding: 20px 20px 20px 20px;
+        border: 1px solid;
+        border-radius: 10px;
+        margin: 22px 0px;
+    }
+
+    .medication_mobhil_view {
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0px 0px 9px -4px #888888;
+        padding: 18px 18px;
+        margin: 40px 0px;
+    }
+
+    .footr-menu {
+        display: none;
+    }
+
+    .footr-menu_mobhil_view {
+        display: block;
+    }
+
+    .footr-menu_mobhil_view .nav-item i {
+        font-size: 25px;
+        color: #2a67bc;
+    }
+
+    .footr-menu_mobhil_view .nav-item svg {
+        color: #2a67bc;
+    }
+
+    .footr-menu_mobhil_view .nav-item {
+        width: 46%;
+        float: left;
+        text-align: center;
+        border-radius: 10px;
+        border: 2px solid #2a67bc;
+        margin: 6px;
+        height: 109px;
+        padding: 23px 0px;
+    }
+
+    .footr-menu_mobhil_view .nav-link {
+        color: #2a67bc;
+    }
+
+    .first_last_menu {
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0px 0px 9px -4px #888888;
+        padding: 6px;
+        display: flex;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+
+    .footer_icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container {
+        padding-bottom: 6px;
+    }
+
+    a.navbar-brand-mobhil_view img {
+        width: 200px;
+    }
+
+    nav.navbar.navbar-expand-xl.navbar-dark.bg-dark {
+        padding: 15px 15px 15px 15px;
+    }
+
+    form.form-inline.my-2.my-md-0,
+    a.nav-link {
+        text-align: center;
+        color: #f8f8f8;
+    }
+
+    div#navbarsExample06 {
+        order: 4;
+        width: 100%;
+    }
+
+    .navbar-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: row;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        justify-content: center;
+    }
+
+    nav.navbar.navbar-expand-xl.navbar-dark.bg-dark {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li.nav-item.fast {
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    a.navbar-brand {
+        order: 2;
+    }
+
+    form.form-inline.my-2.my-md-0 {
+        order: 3;
+    }
+
+    .footr-menu_mobhil_view .nav-item:hover {
+        background-color: #2a67bc;
+    }
+
+    .footr-menu_mobhil_view .nav-item:hover .nav-link {
+        color: #fff !important;
+        transition: 0.5s;
+    }
+
+    .footr-menu_mobhil_view .nav-item:hover i {
+        color: #fff !important;
+        transition: 0.5s;
+    }
+
+    .footr-menu_mobhil_view .nav-item:hover svg {
+        color: #fff !important;
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 390px) {
+    .footr-menu_mobhil_view .nav-item {
+        padding: 14px 0px;
+    }
+
+    .medication_mobhil_view {
+        padding: 18px 10px;
+    }
+
+    .md_list {
+        padding: 20px 20px 20px 9px;
+    }
+
+    .nav-item.fast {
+        font-size: 9px;
+    }
+
+    .lf_ri .btn.btn-primary {
+        font-size: 13px;
+    }
+}
+
+li.nav-item.fast {
+    position: relative;
+    padding-top: 27px;
+    padding-bottom: 28px;
+    transition: 1s ease-in-out;
+}
+
+li.nav-item.fast:hover {
+    background-color: #353535;
+    transition: 1s ease-in-out;
+}
+
+li.nav-item.fast:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    background: #1E1E1E;
+    border-radius: 0px 0px 5px 5px;
+    display: none;
+    position: absolute;
+    min-width: 268px;
+    bottom: -170px;
+    transition: 1s ease-in-out;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+}
+
+.dropdown-content.mmmmm {
+    bottom: -56px;
+}
+
+.dropdown-content a {
+    transition: 1s ease-in-out;
+    color: black;
+    padding: 13px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #353535;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.drop-upperr {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.drop-upperr img {
+    width: 26px;
+    margin-right: 7.2px;
+}
+
+.dropdown-content a:hover .drop-upperr h4 {
+    color: #FFFFFF;
+}
+
+.dropdown-content a:hover .drop-upperr h6 {
+    color: #838383;
+}
+
+.drop-upperr h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8F8F8F;
+    text-align: left;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+}
+
+.drop-upperr h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #5F5F5F;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+/* credit and debit card modal css is here .......................................... */
+.credit-modal .modal {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(5px);
+}
+
+.credit-modal .modal-dialog {
+    max-width: 641px;
+}
+
+.credit-modal .modal-content {
+    padding: 20px !important;
+}
+
+.credit-modal .modal-header {
+    justify-content: center;
+}
+
+.credit-modal .modal-header h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+}
+
+/* .credit-modal .form-check-input[type=radio]:checked:focus{
+    box-shadow: none!important;
+} */
+.credit-modal .form-check-input[type=radio]:checked:after {
+    width: 10px;
+    height: 10px;
+    left: 52%;
+}
+
+.credit-modal .form-check label {
+    padding-left: 15px !important;
+}
+
+.credit-modal .upper-content {
+    margin-top: 20px;
+}
+
+.credit-modal .upper-content table th {
+    background: #2A68BB;
+}
+
+.credit-modal .upper-content table .top-left {
+    border-radius: 8px 0px 0px 0px;
+}
+
+.credit-modal .upper-content table .top-right {
+    border-radius: 0px 8px 0px 0px;
+}
+
+.credit-modal .upper-content .table {
+    text-align: start;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 8px;
+    border-collapse: 0 !important;
+}
+
+.credit-modal .upper-content .table thead th {
+    border: unset !important;
+    border-top: unset !important;
+}
+
+.table>:not(caption)>*>* {
+    border-bottom-width: 0 !important;
+}
+
+.credit-modal .table td,
+.table th {
+    border: none !important;
+}
+
+.credit-modal .form-check {
+    padding-left: 1.25rem !important;
+}
+
+.credit-modal .credit-option {
+    margin-top: 25px;
+}
+
+.credit-modal .credit-option .text-heading h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+    text-align: left;
+}
+
+.credit-modal .small-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #737373;
+}
+
+.credit-modal .para-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.credit-modal .credit-option .credit-item {
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credit-modal .credit-option .credit-item .left-text {
+    text-align: left;
+}
+
+.credit-modal .credit-option .credit-item .left-text h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.credit-modal .credit-option .credit-item .left-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #737373;
+
+}
+
+.credit-modal .credit-option .credit-btn {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.credit-modal .credit-option .credit-btn .add-btn {
+    background: #2A68BB;
+    border-radius: 4px;
+    padding: 7px 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-right: 13px;
+    border: none;
+}
+
+.credit-modal .credit-option .credit-btn .cancel-btn {
+    background: transparent;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #2A68BB;
+}
+
+.credit-modal .credit-card-info {
+    margin-top: 25px;
+}
+
+.credit-modal .credit-card-info .heading-credit {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.credit-modal .form-check label {
+    margin-bottom: 0px;
+}
+
+.credit-modal .label {
+    text-align: start;
+    padding-bottom: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.credit-modal label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.credit-modal .form-group {
+    text-align: start;
+}
+
+.credit-modal .form-row {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.credit-modal .active-rowwe {
+    background: #EFF6FA !important;
+}
+
+.credit-modal .save-btn {
+    display: block;
+    margin-left: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #FFFFFF;
+}
+
+.credit-modal .table td {
+    padding-bottom: 10px !important;
+    padding-top: 12px;
+}
+
+.credit-modal .modal-footerrr {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 14px;
+    margin-top: 10px;
+}
+
+.credit-modal .button-modal-patient {
+    background: #2A68BB;
+    border-radius: 4px;
+    width: 77px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.credit-modal .bottom-label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000000;
+}
+
+
+.credit-modal thead {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.credit-modal td {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+}
+
+.credit-modal .form-check-input {
+    border: 1px solid #B7CAD2;
+}
+
+.credit-modal .form-group input {
+    padding-left: 11px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: #FFFFFF;
+    border: 1px solid #BBD0EB;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #000;
+}
+
+.credit-modal .modal-header {
+    border: none !important;
+}
+
+.credit-modal .form-group input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #B9B9B9;
+}
+
+.credit-modal .form-group select {
+    background: #FFFFFF;
+    border: 1px solid #BBD0EB;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #B9B9B9;
+}
+
+.credit-modal .form-group select::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #B9B9B9;
+}
+
+.credit-modal .form-select {
+    padding-left: 11px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid #BBD0EB;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0044em;
+    color: #B9B9B9;
+}
+
+.credit-modal .arrow-rrr {
+    position: relative;
+}
+
+.credit-modal .arrow-nnn {
+    position: absolute;
+    top: 43px;
+    right: 16px;
+}

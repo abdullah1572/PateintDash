@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <meta charset="utf-8">
+  <title>Patient Information</title>
+
+  <link rel="stylesheet"
+    href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel='stylesheet' id='roboto-subset.css-css'
+    href='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/mdb5/fonts/roboto-subset.css?ver=3.9.0-update.5'
+    type='text/css' media='all' />
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="patient-form">
+    <div class="img-banner">
+      <img src="img/p.jpg" alt="Form Picture">
+    </div>
+
+    <!-- Patient Form Content Starts Here -->
+    <div class="patient-form-content">
+      <div class="sticky-label">
+        <h2 class="text-center">Patient Information</h2>
+        <!-- Profile Image Section Starts Here -->
+        <div class="profile-img">
+          <img src="img/tai.png">
+          <div class="cam-icon">
+            <i class="fas fa-camera"></i>
+          </div>
+        </div>
+        <!-- Profile Image Section Ends Here -->
+      </div>
+
+      <!-- Input Fields Section Starts Here -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="usr">First Name</label>
+            <input type="text" class="form-control" id="usr" placeholder="First Name">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="usr">Middle Name</label>
+            <input type="text" class="form-control" id="usr" placeholder="Middle Name">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="usr">Last Name</label>
+            <input type="text" class="form-control" id="usr" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="usr">DOB</label>
+            <input type="date" class="form-control" id="usr" placeholder="mm/dd/yyyy">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="sel1">Gender</label>
+            <select class="form-control" id="sel1">
+              <option>Select Gender</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Undetermined</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="usr">Email</label>
+            <input type="text" class="form-control" id="usr" placeholder="Email">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="sel1">Language</label>
+            <select class="form-control" id="sel1">
+              <option>Select Language</option>
+              <option>English</option>
+              <option>Spanish</option>
+              <option>Hindi/Urdu</option>
+              <option>Arabic</option>
+              <option>French</option>
+              <option>German</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="sel1">Preferred Language</label>
+            <select class="form-control" id="sel1">
+              <option>Select Language</option>
+              <option>English</option>
+              <option>Spanish</option>
+              <option>Hindi/Urdu</option>
+              <option>Arabic</option>
+              <option>French</option>
+              <option>German</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="usr">MRN <small>(Medical Record Number)</small></label>
+            <input type="text" class="form-control" id="usr" placeholder="MRN">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="usr">SSN</label>
+            <input type="text" class="form-control" id="usr" placeholder="***-**-****">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="usr">Primary Phone Number</label>
+            <input type="text" class="form-control" id="usr" placeholder="(xxx) xxx - xxxx">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="sel1">Preferred Language</label>
+            <select class="form-control" id="sel1">
+              <option>Select Referral Source</option>
+              <option>Internet</option>
+              <option>Insurance</option>
+              <option>Hospital</option>
+              <option>Physician</option>
+              <option>Therapist</option>
+              <option>Current Patient</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="usr">CMD</label>
+            <input type="text" class="form-control" id="usr" disabled>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="choic_yn mb-4">
+        <p>Do you have/are you a parent, guardian, or legal representative?</p>
+        <div class="form-check form-check-inline mr-4">
+          <input class="form-check" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">No</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check choics" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Yes</label>
+        </div>
+      </div>
+      <div class="guardian-choice">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="usr">First Name</label>
+              <input type="text" class="form-control" id="usr" placeholder="First Name">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="usr">Middle Name</label>
+              <input type="text" class="form-control" id="usr" placeholder="Middle Name">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="usr">Last Name</label>
+              <input type="text" class="form-control" id="usr" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="sel1">Relationship</label>
+              <select class="form-control" id="sel1">
+                <option>Select Guardian</option>
+                <option>Parent</option>
+                <option>Guardian</option>
+                <option>Conservator</option>
+                <option>Health Care Surrogate</option>
+                <option>Power of Attorney for Health care</option>
+                <option>Executer / Administrator</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="usr">Phone</label>
+              <input type="text" class="form-control" id="usr" placeholder="(xxx) xxx - xxxx">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="usr">Email</label>
+              <input type="text" class="form-control" id="usr" placeholder="Email">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Input Fields Section Ends Here -->
+
+      <!-- Home Address Fields Starts Here -->
+      <h2 class="text-center">Home Addess</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="usr">Address line 1</label>
+            <input type="text" class="form-control" id="usr" placeholder="Addess">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="usr">Address line 2</label>
+            <input type="text" class="form-control" id="usr" placeholder="Addess">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="usr">State</label>
+            <input type="text" class="form-control" id="usr" placeholder="State">
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="usr">City</label>
+            <input type="text" class="form-control" id="usr" placeholder="City">
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="usr">Zip Code</label>
+            <input type="text" class="form-control" id="usr" placeholder="Zip Code">
+          </div>
+        </div>
+      </div>
+
+      <!-- Home Address Fields Ends Here -->
+
+      <!-- Mailing Address Fields Starts Here -->
+      <div class="mailing-address mt-4">
+        <label class="checkbox-inline d-flex align-items-center">
+          <input type="checkbox" value="" class="mr-1">
+          Same as above
+        </label>
+        <h2 class="text-center">Mailing Addess</h2>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="usr">Address line 1</label>
+              <input type="text" class="form-control" id="usr" placeholder="Address">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="usr">Address line 2</label>
+              <input type="text" class="form-control" id="usr" placeholder="Address">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="usr">State</label>
+              <input type="text" class="form-control" id="usr" placeholder="State">
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="usr">City</label>
+              <input type="text" class="form-control" id="usr" placeholder="City">
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="usr">Zip Code</label>
+              <input type="text" class="form-control" id="usr" placeholder="Zip Code">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Mailing Address Fields Ends Here -->
+
+      <!-- Emergency Contact Info Fields Starts Here -->
+      <div class="emergency-contact mt-4">
+        <h2 class="text-center">Emergency Contact Information</h2>
+
+        <div class="choic_yn mb-4 row">
+          <div class="col-md-6">
+            <div class="form-check form-check-inline mr-4">
+              <input class="form-check" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">Self</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check choics" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">Other</label>
+            </div>
+          </div>
+          <div class="col-md-6 emergency-radio">
+            <div class="d-flex">
+              <p class="m-0 mr-3">Permission to speak?</p>
+              <div class="form-check form-check-inline mr-4">
+                <input class="form-check" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">No</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check choics" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                  value="option2">
+                <label class="form-check-label" for="inlineRadio2">Yes</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="usr">Name</label>
+              <input type="text" class="form-control" id="usr" placeholder="Name">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="usr">Relationship to the Contact</label>
+              <input type="text" class="form-control" id="usr" placeholder="Relationship">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="usr">Phone Number</label>
+              <input type="text" class="form-control" id="usr" placeholder="(xxx) xxx - xxxx">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="usr">Email</label>
+              <input type="text" class="form-control" id="usr" placeholder="Email">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- Emergency Contact Info Fields Ends Here -->
+
+      <!-- Action Button Starts Here -->
+      <div class="text-end my-3">
+        <button class="btn btn-primary" type="button">Save & Next</button>
+      </div>
+      <!-- Action Button Ends Here -->
+
+    </div>
+    <!-- Patient Form Content Ends Here -->
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/jquery.js"></script>
+</body>
+
+</html>
