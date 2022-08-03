@@ -14,7 +14,7 @@
       href='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/mdb5/fonts/roboto-subset.css?ver=3.9.0-update.5'
       type='text/css' media='all' />
    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> -->
-
+   <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css">
    <link rel="stylesheet" type="text/css" href="css/stylesec.css">
    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
 </head>
@@ -767,6 +767,12 @@
                </nav>
             </div>
          </div>
+         <div>
+
+            <div id="sh1">Hello There !!</div>
+            <p>&nbsp;</p>
+            <div id="sh2" style="display:none;">Hey Watz up !!</div>
+         </div>
          <!--  footer menu mobhil view	 -->
          <div class="footr-menu_mobhil_view">
             <div class="men_heade">
@@ -868,413 +874,432 @@
                      </div>
                      <div class="cashpaye">
                         <div class="form-check form-check-inline mx-3">
-                           <input class="form-check choics mr-1" type="radio" name="inlineRadioOptions"
-                              id="parientguardian1" value="option2">
-                           <label class="form-check-label" for="parientguardian1">Cash pay</label>
+                           <input class="form-check choics mr-1" name="r1" checked="checked"
+                              onchange="show2(this.value)" type="radio" id="cash1">
+                           <label class="form-check-label" for="cash1">Cash pay</label>
                         </div>
                         <div class="form-check form-check-inline">
-                           <input class="form-check mr-1" type="radio" name="inlineRadioOptions" id="parientguardian2"
-                              value="option1">
-                           <label class="form-check-label" for="parientguardian2">Insurance</label>
+                           <input class="form-check mr-1" name="r1" type="radio" onchange="show()" id="cash2">
+                           <label class="form-check-label" for="cash2">Insurance</label>
                         </div>
                      </div>
                   </div>
-                  <div class="prrimarryinsu">
-                     <h3>Primary Insurance</h3>
-                     <div class="FBimage">
-                        <div class="front">
-                           <div class="camera">
-                              <img src="img/insuranceinfo/Group 1440.svg" data-toggle="tooltip" data-placement="top"
-                                 title="Camera" class="img-fluid">
+                  <div id="main-cash-insurance" style="display:none;">
+                     <div class="prrimarryinsu">
+                        <h3>Primary Insurance</h3>
+                        <div class="FBimage">
+                           <div class="front">
+                              <div class="camera">
+                                 <img src="img/insuranceinfo/Group 1440.svg" data-toggle="tooltip" data-placement="top"
+                                    title="Camera" class="img-fluid">
+                              </div>
+                              <div class="uploadfile">
+                                 <label for="fileb" className="images-inner-outyer"><img
+                                       src="img/insuranceinfo/Group 1372.svg" data-toggle="tooltip" data-placement="top"
+                                       title="Upload Image" class="img-fluid"></label>
+                                 <input type="file" class="d-none" id="fileb">
+                              </div>
+                              <div class="openimage">
+                                 <img src="img/insuranceinfo/Group 1441.svg" data-toggle="tooltip" data-placement="top"
+                                    title="View Zoom Image" class="img-fluid">
+                              </div>
+                              <img src="img/insuranceinfo/4400f668c0c6d41ad762216517fd8ff0 1 1.png" class="img-fluid">
                            </div>
-                           <div class="uploadfile">
-                              <label for="fileb" className="images-inner-outyer"><img
-                                    src="img/insuranceinfo/Group 1372.svg" data-toggle="tooltip" data-placement="top"
-                                    title="Upload Image" class="img-fluid"></label>
-                              <input type="file" class="d-none" id="fileb">
-                           </div>
-                           <div class="openimage">
-                              <img src="img/insuranceinfo/Group 1441.svg" data-toggle="tooltip" data-placement="top"
-                                 title="View Zoom Image" class="img-fluid">
-                           </div>
-                           <img src="img/insuranceinfo/4400f668c0c6d41ad762216517fd8ff0 1 1.png" class="img-fluid">
-                        </div>
-                        <div class="back">
-                           <div class="camera">
-                              <img src="img/insuranceinfo/Group 1440.svg" data-toggle="tooltip" data-placement="top"
-                                 title="Camera" class="img-fluid">
-                           </div>
-                           <div class="uploadfile">
-                              <label for="fileb" className="images-inner-outyer"><img
-                                    src="img/insuranceinfo/Group 1372.svg" data-toggle="tooltip" data-placement="top"
-                                    title="Upload Image" class="img-fluid"></label>
-                              <input type="file" class="d-none" id="fileb">
-                           </div>
-                           <div class="openimage">
-                              <img src="img/insuranceinfo/Group 1441.svg" data-toggle="tooltip" data-placement="top"
-                                 title="View Zoom Image" class="img-fluid">
-                           </div>
-                           <img src="img/insuranceinfo/4400f668c0c6d41ad762216517fd8ff0 1 1.png" class="img-fluid">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="down-form">
-                     <div class="row primary-up">
-                        <div class="col-sm-6 llo ">
-                           <div class="form-group">
-                              <label for="usr">Plan Names</label>
-                              <input type="text" class="form-control" id="usr" placeholder="Guardian">
-                           </div>
-                        </div>
-
-                        <div class="col-sm-6 ">
-                           <div class="form-group">
-                              <label for="usr">Policy ID</label>
-                              <input type="text" class="form-control" id="usr" placeholder="123-123">
-                           </div>
-                        </div>
-
-                        <div class="col-sm-6  llo">
-                           <div class="form-group">
-                              <label for="usr">Group Number</label>
-                              <input type="text" class="form-control" id="usr" placeholder="456-456">
-                           </div>
-                        </div>
-                        <div class="col-sm-6 ">
-                           <div class="form-group">
-                              <label for="usr">Effective Date</label>
-                              <input type="date" class="form-control" id="usr" placeholder="mm/dd/yyyy">
+                           <div class="back">
+                              <div class="camera">
+                                 <img src="img/insuranceinfo/Group 1440.svg" data-toggle="tooltip" data-placement="top"
+                                    title="Camera" class="img-fluid">
+                              </div>
+                              <div class="uploadfile">
+                                 <label for="fileb" className="images-inner-outyer"><img
+                                       src="img/insuranceinfo/Group 1372.svg" data-toggle="tooltip" data-placement="top"
+                                       title="Upload Image" class="img-fluid"></label>
+                                 <input type="file" class="d-none" id="fileb">
+                              </div>
+                              <div class="openimage">
+                                 <img src="img/insuranceinfo/Group 1441.svg" data-toggle="tooltip" data-placement="top"
+                                    title="View Zoom Image" class="img-fluid">
+                              </div>
+                              <img src="img/insuranceinfo/4400f668c0c6d41ad762216517fd8ff0 1 1.png" class="img-fluid">
                            </div>
                         </div>
                      </div>
+                     <div class="down-form">
+                        <div class="row primary-up">
+                           <div class="col-sm-6 llo ">
+                              <div class="form-group">
+                                 <label for="usr">Plan Names</label>
+                                 <input type="text" class="form-control" id="usr" placeholder="Guardian">
+                              </div>
+                           </div>
+
+                           <div class="col-sm-6 ">
+                              <div class="form-group">
+                                 <label for="usr">Policy ID</label>
+                                 <input type="text" class="form-control" id="usr" placeholder="123-123">
+                              </div>
+                           </div>
+
+                           <div class="col-sm-6  llo">
+                              <div class="form-group">
+                                 <label for="usr">Group Number</label>
+                                 <input type="text" class="form-control" id="usr" placeholder="456-456">
+                              </div>
+                           </div>
+                           <div class="col-sm-6 ">
+                              <div class="form-group">
+                                 <label for="usr">Effective Date</label>
+                                 <input type="date" class="form-control" id="usr" placeholder="mm/dd/yyyy">
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Patient Guardian Radio Button Starts Here -->
+                        <div class="mailing-radio-btn d-flex mb-2">
+                           <p class="mb-0">
+                              Are you the primary insurance holder?
+                           </p>
+                           <div>
+                              <div class="form-check form-check-inline mx-3">
+                                 <input class="form-check choics mr-1" name="r2" checked="checked" onchange="show3(this.value)"
+                                    type="radio" id="primary1">
+                                 <label class="form-check-label" for="primary1">Yes</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                 <input class="form-check mr-1" name="r2" type="radio" onchange="show4()" id="primary2">
+                                 <label class="form-check-label" for="primary2">No</label>
+                              </div>
+                           </div>
+                        </div>
+                        <div id="are-you-primary" style="display: none;">
+                           <!-- Patient Guardian Radio Button Starts Here -->
+                           <div class="pleaseprovide">
+                              <h6>Please provide primary insurance holder info:</h6>
+                           </div>
+
+                           <div class="row primary-up">
+                              <div class="col-sm-6 llo ">
+                                 <div class="form-group">
+                                    <label for="usr">Names</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="Jane Doe">
+                                 </div>
+                              </div>
+                              <div class="col-sm-6 ">
+                                 <div class="form-group">
+                                    <label for="usr">DOB</label>
+                                    <input type="date" class="form-control" id="usr" placeholder="mm/dd/yyyy">
+                                 </div>
+                              </div>
+
+                              <div class="col-sm-6 llo">
+                                 <div class="form-group">
+                                    <label for="usr">Relashionship</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="None">
+                                 </div>
+                              </div>
+
+                              <div class="col-sm-6  ">
+                                 <div class="form-group">
+                                    <label for="usr">Social Security</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="123-456-7890">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
                      <!-- Patient Guardian Radio Button Starts Here -->
                      <div class="mailing-radio-btn d-flex mb-2">
-                        <p class="mb-0">
-                           Are you the primary insurance holder?
+                        <p class="mb-0 kkkook">
+                           Do you have Secondary Insurance?
                         </p>
                         <div>
                            <div class="form-check form-check-inline mx-3">
-                              <input class="form-check choics mr-1" type="radio" name="inlineRadioOptions"
-                                 id="parientguardian1" value="option2">
-                              <label class="form-check-label" for="parientguardian1">Yes</label>
+                              <input class="form-check choics mr-1" name="r3" type="radio" onchange="show6()"
+                                 id="secondary1">
+                              <label class="form-check-label" for="secondary1">Yes</label>
                            </div>
                            <div class="form-check form-check-inline">
-                              <input class="form-check mr-1" type="radio" name="inlineRadioOptions"
-                                 id="parientguardian2" value="option1">
-                              <label class="form-check-label" for="parientguardian2">No</label>
+                              <input class="form-check mr-1" name="r3" checked="checked" onchange="show5(this.value)" type="radio"
+                                 id="secondary2">
+                              <label class="form-check-label" for="secondary2">No</label>
                            </div>
                         </div>
-                     </div>
-                     <!-- Patient Guardian Radio Button Starts Here -->
-                     <div class="pleaseprovide">
-                        <h6>Please provide primary insurance holder info:</h6>
                      </div>
 
-                     <div class="row primary-up">
-                        <div class="col-sm-6 llo ">
-                           <div class="form-group">
-                              <label for="usr">Names</label>
-                              <input type="text" class="form-control" id="usr" placeholder="Jane Doe">
+                     <div id="secondary-issurrance" style="display: none;">
+                        <!-- Patient Guardian Radio Button Starts Here -->
+                        <div class="prrimarryinsu">
+                           <h3>Secondary Insurance</h3>
+                           <div class="FBimage">
+                              <div class="front">
+                                 <div class="camera">
+                                    <img src="img/insuranceinfo/Group 1440.svg" data-toggle="tooltip"
+                                       data-placement="top" title="Camera" class="img-fluid">
+                                 </div>
+                                 <div class="uploadfile">
+                                    <label for="fileb" className="images-inner-outyer"><img
+                                          src="img/insuranceinfo/Group 1372.svg" data-toggle="tooltip"
+                                          data-placement="top" title="Upload Image" class="img-fluid"></label>
+                                    <input type="file" class="d-none" id="fileb">
+                                 </div>
+                                 <div class="openimage">
+                                    <img src="img/insuranceinfo/Group 1441.svg" data-toggle="tooltip"
+                                       data-placement="top" title="View Zoom Image" class="img-fluid">
+                                 </div>
+                                 <img src="img/insuranceinfo/4400f668c0c6d41ad762216517fd8ff0 1 1.png"
+                                    class="img-fluid">
+                              </div>
+                              <div class="back">
+                                 <div class="camera">
+                                    <img src="img/insuranceinfo/Group 1440.svg" data-toggle="tooltip"
+                                       data-placement="top" title="Camera" class="img-fluid">
+                                 </div>
+                                 <div class="uploadfile">
+                                    <label for="fileb" className="images-inner-outyer"><img
+                                          src="img/insuranceinfo/Group 1372.svg" data-toggle="tooltip"
+                                          data-placement="top" title="Upload Image" class="img-fluid"></label>
+                                    <input type="file" class="d-none" id="fileb">
+                                 </div>
+                                 <div class="openimage">
+                                    <img src="img/insuranceinfo/Group 1441.svg" data-toggle="tooltip"
+                                       data-placement="top" title="View Zoom Image" class="img-fluid">
+                                 </div>
+                                 <img src="img/insuranceinfo/4400f668c0c6d41ad762216517fd8ff0 1 1.png"
+                                    class="img-fluid">
+                              </div>
                            </div>
                         </div>
-                        <div class="col-sm-6 ">
-                           <div class="form-group">
-                              <label for="usr">DOB</label>
-                              <input type="date" class="form-control" id="usr" placeholder="mm/dd/yyyy">
-                           </div>
-                        </div>
+                        <div class="down-form">
+                           <div class="row primary-up">
+                              <div class="col-sm-6 llo ">
+                                 <div class="form-group">
+                                    <label for="usr">Plan Names</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="Guardian">
+                                 </div>
+                              </div>
 
-                        <div class="col-sm-6 llo">
-                           <div class="form-group">
-                              <label for="usr">Relashionship</label>
-                              <input type="text" class="form-control" id="usr" placeholder="None">
-                           </div>
-                        </div>
+                              <div class="col-sm-6 ">
+                                 <div class="form-group">
+                                    <label for="usr">Policy ID</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="123-123">
+                                 </div>
+                              </div>
 
-                        <div class="col-sm-6  ">
-                           <div class="form-group">
-                              <label for="usr">Social Security</label>
-                              <input type="text" class="form-control" id="usr" placeholder="123-456-7890">
+                              <div class="col-sm-6  llo">
+                                 <div class="form-group">
+                                    <label for="usr">Group Number</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="456-456">
+                                 </div>
+                              </div>
+                              <div class="col-sm-6 ">
+                                 <div class="form-group">
+                                    <label for="usr">Effective Date</label>
+                                    <input type="date" class="form-control" id="usr" placeholder="mm/dd/yyyy">
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- Patient Guardian Radio Button Starts Here -->
+                           <div class="mailing-radio-btn d-flex mb-2">
+                              <p class="mb-0">
+                                 Are you the secondary insurance holder?
+                              </p>
+                              <div>
+                                 <div class="form-check form-check-inline mx-3">
+                                    <input class="form-check choics mr-1" name="r5" checked="checked" onchange="show9(this.value)"
+                                    type="radio"  id="innersec1">
+                                    <label class="form-check-label" for="innersec1">Yes</label>
+                                 </div>
+                                 <div class="form-check form-check-inline">
+                                    <input class="form-check mr-1"  name="r5" type="radio" onchange="show10()"
+                                       id="innersec2" >
+                                    <label class="form-check-label" for="innersec2">No</label>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="inner-sec-insu" style="display: none;">
+                              <!-- Patient Guardian Radio Button Starts Here -->
+                              <div class="pleaseprovide">
+                                 <h6>Please provide Secondary insurance holder info:</h6>
+                              </div>
+
+                              <div class="row primary-up">
+                                 <div class="col-sm-6 llo ">
+                                    <div class="form-group">
+                                       <label for="usr">Names</label>
+                                       <input type="text" class="form-control" id="usr" placeholder="Jane Doe">
+                                    </div>
+                                 </div>
+                                 <div class="col-sm-6 ">
+                                    <div class="form-group">
+                                       <label for="usr">DOB</label>
+                                       <input type="date" class="form-control" id="usr" placeholder="mm/dd/yyyy">
+                                    </div>
+                                 </div>
+
+                                 <div class="col-sm-6 llo">
+                                    <div class="form-group">
+                                       <label for="usr">Relashionship</label>
+                                       <input type="text" class="form-control" id="usr" placeholder="None">
+                                    </div>
+                                 </div>
+
+                                 <div class="col-sm-6  ">
+                                    <div class="form-group">
+                                       <label for="usr">Social Security</label>
+                                       <input type="text" class="form-control" id="usr" placeholder="123-456-7890">
+                                    </div>
+                                 </div>
+                              </div>
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <!-- Patient Guardian Radio Button Starts Here -->
-                  <div class="mailing-radio-btn d-flex mb-2">
-                     <p class="mb-0 kkkook">
-                        Do you have Secondary Insurance?
-                     </p>
-                     <div>
-                        <div class="form-check form-check-inline mx-3">
-                           <input class="form-check choics mr-1" type="radio" name="inlineRadioOptions"
-                              id="parientguardian1" value="option2">
-                           <label class="form-check-label" for="parientguardian1">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check mr-1" type="radio" name="inlineRadioOptions" id="parientguardian2"
-                              value="option1">
-                           <label class="form-check-label" for="parientguardian2">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- Patient Guardian Radio Button Starts Here -->
-                  <div class="prrimarryinsu">
-                     <h3>Secondary Insurance</h3>
-                     <div class="FBimage">
-                        <div class="front">
-                           <div class="camera">
-                              <img src="img/insuranceinfo/Group 1440.svg" data-toggle="tooltip" data-placement="top"
-                                 title="Camera" class="img-fluid">
-                           </div>
-                           <div class="uploadfile">
-                              <label for="fileb" className="images-inner-outyer"><img
-                                    src="img/insuranceinfo/Group 1372.svg" data-toggle="tooltip" data-placement="top"
-                                    title="Upload Image" class="img-fluid"></label>
-                              <input type="file" class="d-none" id="fileb">
-                           </div>
-                           <div class="openimage">
-                              <img src="img/insuranceinfo/Group 1441.svg" data-toggle="tooltip" data-placement="top"
-                                 title="View Zoom Image" class="img-fluid">
-                           </div>
-                           <img src="img/insuranceinfo/4400f668c0c6d41ad762216517fd8ff0 1 1.png" class="img-fluid">
-                        </div>
-                        <div class="back">
-                           <div class="camera">
-                              <img src="img/insuranceinfo/Group 1440.svg" data-toggle="tooltip" data-placement="top"
-                                 title="Camera" class="img-fluid">
-                           </div>
-                           <div class="uploadfile">
-                              <label for="fileb" className="images-inner-outyer"><img
-                                    src="img/insuranceinfo/Group 1372.svg" data-toggle="tooltip" data-placement="top"
-                                    title="Upload Image" class="img-fluid"></label>
-                              <input type="file" class="d-none" id="fileb">
-                           </div>
-                           <div class="openimage">
-                              <img src="img/insuranceinfo/Group 1441.svg" data-toggle="tooltip" data-placement="top"
-                                 title="View Zoom Image" class="img-fluid">
-                           </div>
-                           <img src="img/insuranceinfo/4400f668c0c6d41ad762216517fd8ff0 1 1.png" class="img-fluid">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="down-form">
-                     <div class="row primary-up">
-                        <div class="col-sm-6 llo ">
-                           <div class="form-group">
-                              <label for="usr">Plan Names</label>
-                              <input type="text" class="form-control" id="usr" placeholder="Guardian">
-                           </div>
-                        </div>
 
-                        <div class="col-sm-6 ">
-                           <div class="form-group">
-                              <label for="usr">Policy ID</label>
-                              <input type="text" class="form-control" id="usr" placeholder="123-123">
-                           </div>
-                        </div>
-
-                        <div class="col-sm-6  llo">
-                           <div class="form-group">
-                              <label for="usr">Group Number</label>
-                              <input type="text" class="form-control" id="usr" placeholder="456-456">
-                           </div>
-                        </div>
-                        <div class="col-sm-6 ">
-                           <div class="form-group">
-                              <label for="usr">Effective Date</label>
-                              <input type="date" class="form-control" id="usr" placeholder="mm/dd/yyyy">
-                           </div>
-                        </div>
-                     </div>
                      <!-- Patient Guardian Radio Button Starts Here -->
                      <div class="mailing-radio-btn d-flex mb-2">
                         <p class="mb-0">
-                           Are you the secondary insurance holder?
+                           Do you have Tertiary Insurance?
                         </p>
                         <div>
                            <div class="form-check form-check-inline mx-3">
-                              <input class="form-check choics mr-1" type="radio" name="inlineRadioOptions"
-                                 id="parientguardian1" value="option2">
-                              <label class="form-check-label" for="parientguardian1">Yes</label>
+                              <input class="form-check choics mr-1" name="r4" type="radio" onchange="show8()"
+                                 id="tetitory1">
+                              <label class="form-check-label" for="tetitory1">Yes</label>
                            </div>
                            <div class="form-check form-check-inline">
-                              <input class="form-check mr-1" type="radio" name="inlineRadioOptions"
-                                 id="parientguardian2" value="option1">
-                              <label class="form-check-label" for="parientguardian2">No</label>
+                              <input class="form-check mr-1" name="r4" checked="checked" onchange="show7(this.value)" type="radio"
+                                 id="tetitory2">
+                              <label class="form-check-label" for="tetitory2">No</label>
                            </div>
                         </div>
                      </div>
-                     <!-- Patient Guardian Radio Button Starts Here -->
-                     <div class="pleaseprovide">
-                        <h6>Please provide Secondary insurance holder info:</h6>
-                     </div>
-
-                     <div class="row primary-up">
-                        <div class="col-sm-6 llo ">
-                           <div class="form-group">
-                              <label for="usr">Names</label>
-                              <input type="text" class="form-control" id="usr" placeholder="Jane Doe">
+                     <div id="tertirroy-issurrance" style="display: none;">
+                        <!-- Patient Guardian Radio Button Starts Here -->
+                        <div class="prrimarryinsu">
+                           <h3>Tertiary Insurance</h3>
+                           <div class="FBimage">
+                              <div class="front">
+                                 <div class="camera">
+                                    <img src="img/insuranceinfo/Group 1440.svg" data-toggle="tooltip"
+                                       data-placement="top" title="Camera" class="img-fluid">
+                                 </div>
+                                 <div class="uploadfile">
+                                    <label for="fileb" className="images-inner-outyer"><img
+                                          src="img/insuranceinfo/Group 1372.svg" data-toggle="tooltip"
+                                          data-placement="top" title="Upload Image" class="img-fluid"></label>
+                                    <input type="file" class="d-none" id="fileb">
+                                 </div>
+                                 <div class="openimage">
+                                    <img src="img/insuranceinfo/Group 1441.svg" data-toggle="tooltip"
+                                       data-placement="top" title="View Zoom Image" class="img-fluid">
+                                 </div>
+                                 <img src="img/insuranceinfo/4400f668c0c6d41ad762216517fd8ff0 1 1.png"
+                                    class="img-fluid">
+                              </div>
+                              <div class="back">
+                                 <div class="camera">
+                                    <img src="img/insuranceinfo/Group 1440.svg" data-toggle="tooltip"
+                                       data-placement="top" title="Camera" class="img-fluid">
+                                 </div>
+                                 <div class="uploadfile">
+                                    <label for="fileb" className="images-inner-outyer"><img
+                                          src="img/insuranceinfo/Group 1372.svg" data-toggle="tooltip"
+                                          data-placement="top" title="Upload Image" class="img-fluid"></label>
+                                    <input type="file" class="d-none" id="fileb">
+                                 </div>
+                                 <div class="openimage">
+                                    <img src="img/insuranceinfo/Group 1441.svg" data-toggle="tooltip"
+                                       data-placement="top" title="View Zoom Image" class="img-fluid">
+                                 </div>
+                                 <img src="img/insuranceinfo/4400f668c0c6d41ad762216517fd8ff0 1 1.png"
+                                    class="img-fluid">
+                              </div>
                            </div>
                         </div>
-                        <div class="col-sm-6 ">
-                           <div class="form-group">
-                              <label for="usr">DOB</label>
-                              <input type="date" class="form-control" id="usr" placeholder="mm/dd/yyyy">
+                        <div class="down-form">
+                           <div class="row primary-up">
+                              <div class="col-sm-6 llo ">
+                                 <div class="form-group">
+                                    <label for="usr">Plan Names</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="Guardian">
+                                 </div>
+                              </div>
+                              <div class="col-sm-6 ">
+                                 <div class="form-group">
+                                    <label for="usr">Policy ID</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="123-123">
+                                 </div>
+                              </div>
+                              <div class="col-sm-6  llo">
+                                 <div class="form-group">
+                                    <label for="usr">Group Number</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="456-456">
+                                 </div>
+                              </div>
+                              <div class="col-sm-6 ">
+                                 <div class="form-group">
+                                    <label for="usr">Effective Date</label>
+                                    <input type="date" class="form-control" id="usr" placeholder="mm/dd/yyyy">
+                                 </div>
+                              </div>
                            </div>
-                        </div>
-
-                        <div class="col-sm-6 llo">
-                           <div class="form-group">
-                              <label for="usr">Relashionship</label>
-                              <input type="text" class="form-control" id="usr" placeholder="None">
+                           <!-- Patient Guardian Radio Button Starts Here -->
+                           <div class="mailing-radio-btn d-flex mb-2">
+                              <p class="mb-0">
+                                 Are you the tertiary Insurance holder?
+                              </p>
+                              <div>
+                                 <div class="form-check form-check-inline mx-3">
+                                    <input class="form-check choics mr-1" name="r6" type="radio" checked="checked" onchange="show11(this.value)"
+                                       id="ter-isu1" >
+                                    <label class="form-check-label" for="ter-isu1">Yes</label>
+                                 </div>
+                                 <div class="form-check form-check-inline">
+                                    <input class="form-check mr-1" name="r6" type="radio" onchange="show12()"
+                                       id="ter-isu2" >
+                                    <label class="form-check-label" for="ter-isu2">No</label>
+                                 </div>
+                              </div>
                            </div>
-                        </div>
+                           <div id="ter-insurrance" style="display: none;">
+                              
+                           <!-- Patient Guardian Radio Button Starts Here -->
+                           <div class="pleaseprovide">
+                              <h6>Please provide Tertiary insurance holder info:</h6>
+                           </div>
 
-                        <div class="col-sm-6  ">
-                           <div class="form-group">
-                              <label for="usr">Social Security</label>
-                              <input type="text" class="form-control" id="usr" placeholder="123-456-7890">
+                           <div class="row primary-up">
+                              <div class="col-sm-6 llo ">
+                                 <div class="form-group">
+                                    <label for="usr">Names</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="Jane Doe">
+                                 </div>
+                              </div>
+                              <div class="col-sm-6 ">
+                                 <div class="form-group">
+                                    <label for="usr">DOB</label>
+                                    <input type="date" class="form-control" id="usr" placeholder="mm/dd/yyyy">
+                                 </div>
+                              </div>
+
+                              <div class="col-sm-6 llo">
+                                 <div class="form-group">
+                                    <label for="usr">Relashionship</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="None">
+                                 </div>
+                              </div>
+
+                              <div class="col-sm-6  ">
+                                 <div class="form-group">
+                                    <label for="usr">Social Security</label>
+                                    <input type="text" class="form-control" id="usr" placeholder="123-456-7890">
+                                 </div>
+                              </div>
+                           </div>
                            </div>
                         </div>
                      </div>
                   </div>
-                  <!-- Patient Guardian Radio Button Starts Here -->
-                  <div class="mailing-radio-btn d-flex mb-2">
-                     <p class="mb-0">
-                        Do you have Tertiary Insurance?
-                     </p>
-                     <div>
-                        <div class="form-check form-check-inline mx-3">
-                           <input class="form-check choics mr-1" type="radio" name="inlineRadioOptions"
-                              id="parientguardian1" value="option2">
-                           <label class="form-check-label" for="parientguardian1">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                           <input class="form-check mr-1" type="radio" name="inlineRadioOptions" id="parientguardian2"
-                              value="option1">
-                           <label class="form-check-label" for="parientguardian2">No</label>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- Patient Guardian Radio Button Starts Here -->
-                  <div class="prrimarryinsu">
-                     <h3>Tertiary Insurance</h3>
-                     <div class="FBimage">
-                        <div class="front">
-                           <div class="camera">
-                              <img src="img/insuranceinfo/Group 1440.svg" data-toggle="tooltip" data-placement="top"
-                                 title="Camera" class="img-fluid">
-                           </div>
-                           <div class="uploadfile">
-                              <label for="fileb" className="images-inner-outyer"><img
-                                    src="img/insuranceinfo/Group 1372.svg" data-toggle="tooltip" data-placement="top"
-                                    title="Upload Image" class="img-fluid"></label>
-                              <input type="file" class="d-none" id="fileb">
-                           </div>
-                           <div class="openimage">
-                              <img src="img/insuranceinfo/Group 1441.svg" data-toggle="tooltip" data-placement="top"
-                                 title="View Zoom Image" class="img-fluid">
-                           </div>
-                           <img src="img/insuranceinfo/4400f668c0c6d41ad762216517fd8ff0 1 1.png" class="img-fluid">
-                        </div>
-                        <div class="back">
-                           <div class="camera">
-                              <img src="img/insuranceinfo/Group 1440.svg" data-toggle="tooltip" data-placement="top"
-                                 title="Camera" class="img-fluid">
-                           </div>
-                           <div class="uploadfile">
-                              <label for="fileb" className="images-inner-outyer"><img
-                                    src="img/insuranceinfo/Group 1372.svg" data-toggle="tooltip" data-placement="top"
-                                    title="Upload Image" class="img-fluid"></label>
-                              <input type="file" class="d-none" id="fileb">
-                           </div>
-                           <div class="openimage">
-                              <img src="img/insuranceinfo/Group 1441.svg" data-toggle="tooltip" data-placement="top"
-                                 title="View Zoom Image" class="img-fluid">
-                           </div>
-                           <img src="img/insuranceinfo/4400f668c0c6d41ad762216517fd8ff0 1 1.png" class="img-fluid">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="down-form">
-                     <div class="row primary-up">
-                        <div class="col-sm-6 llo ">
-                           <div class="form-group">
-                              <label for="usr">Plan Names</label>
-                              <input type="text" class="form-control" id="usr" placeholder="Guardian">
-                           </div>
-                        </div>
-                        <div class="col-sm-6 ">
-                           <div class="form-group">
-                              <label for="usr">Policy ID</label>
-                              <input type="text" class="form-control" id="usr" placeholder="123-123">
-                           </div>
-                        </div>
-                        <div class="col-sm-6  llo">
-                           <div class="form-group">
-                              <label for="usr">Group Number</label>
-                              <input type="text" class="form-control" id="usr" placeholder="456-456">
-                           </div>
-                        </div>
-                        <div class="col-sm-6 ">
-                           <div class="form-group">
-                              <label for="usr">Effective Date</label>
-                              <input type="date" class="form-control" id="usr" placeholder="mm/dd/yyyy">
-                           </div>
-                        </div>
-                     </div>
-                     <!-- Patient Guardian Radio Button Starts Here -->
-                     <div class="mailing-radio-btn d-flex mb-2">
-                        <p class="mb-0">
-                           Are you the tertiary Insurance holder?
-                        </p>
-                        <div>
-                           <div class="form-check form-check-inline mx-3">
-                              <input class="form-check choics mr-1" type="radio" name="inlineRadioOptions"
-                                 id="parientguardian1" value="option2">
-                              <label class="form-check-label" for="parientguardian1">Yes</label>
-                           </div>
-                           <div class="form-check form-check-inline">
-                              <input class="form-check mr-1" type="radio" name="inlineRadioOptions"
-                                 id="parientguardian2" value="option1">
-                              <label class="form-check-label" for="parientguardian2">No</label>
-                           </div>
-                        </div>
-                     </div>
-                     <!-- Patient Guardian Radio Button Starts Here -->
-                     <div class="pleaseprovide">
-                        <h6>Please provide Tertiary insurance holder info:</h6>
-                     </div>
 
-                     <div class="row primary-up">
-                        <div class="col-sm-6 llo ">
-                           <div class="form-group">
-                              <label for="usr">Names</label>
-                              <input type="text" class="form-control" id="usr" placeholder="Jane Doe">
-                           </div>
-                        </div>
-                        <div class="col-sm-6 ">
-                           <div class="form-group">
-                              <label for="usr">DOB</label>
-                              <input type="date" class="form-control" id="usr" placeholder="mm/dd/yyyy">
-                           </div>
-                        </div>
-
-                        <div class="col-sm-6 llo">
-                           <div class="form-group">
-                              <label for="usr">Relashionship</label>
-                              <input type="text" class="form-control" id="usr" placeholder="None">
-                           </div>
-                        </div>
-
-                        <div class="col-sm-6  ">
-                           <div class="form-group">
-                              <label for="usr">Social Security</label>
-                              <input type="text" class="form-control" id="usr" placeholder="123-456-7890">
-                           </div>
-                        </div>
-                     </div>
-                  </div>
                </div>
                <div class="modal-footerrr">
                   <button type="button" class="button-modal-patient">Save</button>
@@ -2142,8 +2167,8 @@
                      </button>
                   </div>
                   <div class="modal-body p-0">
-                     <button class="export-btn"><img src="./export-icon.svg" alt="img"
-                           class="img-fluid mr-2"><span class="export-mbl">Export</span></button>
+                     <button class="export-btn"><img src="./export-icon.svg" alt="img" class="img-fluid mr-2"><span
+                           class="export-mbl">Export</span></button>
                      <table id="example" class="table table-striped table-bordered" style="width:100%">
                         <thead>
                            <tr>
@@ -2983,7 +3008,46 @@
       crossorigin="anonymous"></script>
    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap4.min.js"></script>
-   <!-- <script src="js/jquery.js"></script> -->
+
+   <script type="text/javascript">
+      function show2(str) {
+         document.getElementById('main-cash-insurance').style.display = 'none';
+      }
+      function show(sign) {
+         document.getElementById('main-cash-insurance').style.display = 'block';
+      }
+      function show3(str) {
+         document.getElementById('are-you-primary').style.display = 'none';
+      }
+      function show4(sign) {
+         document.getElementById('are-you-primary').style.display = 'block';
+      }
+      function show6(str) {
+         document.getElementById('secondary-issurrance').style.display = 'block';
+      }
+      function show5(sign) {
+         document.getElementById('secondary-issurrance').style.display = 'none';
+      }
+      function show8(str) {
+         document.getElementById('tertirroy-issurrance').style.display = 'block';
+      }
+      function show7(sign) {
+         document.getElementById('tertirroy-issurrance').style.display = 'none';
+      }
+      function show9(str) {
+         document.getElementById('inner-sec-insu').style.display = 'none';
+      }
+      function show10(sign) {
+         document.getElementById('inner-sec-insu').style.display = 'block';
+      }
+      function show11(str) {
+         document.getElementById('ter-insurrance').style.display = 'none';
+      }
+      function show12(sign) {
+         document.getElementById('ter-insurrance').style.display = 'block';
+      }
+   </script>
+
    <script>
       $(document).ready(function () {
          const yesBtn = document.getElementById('mailingRadio1');

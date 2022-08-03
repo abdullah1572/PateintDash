@@ -1590,7 +1590,12 @@ input[type="checkbox" i] {
 .data-table .modal-dialog{
     max-width: 950px;
 }
-
+.sh1{
+    display: none;
+}
+.sh2{
+    display: none;
+}
 .data-table .modal-header{
     justify-content: center;
     margin-bottom: 20px;
