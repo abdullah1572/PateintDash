@@ -294,71 +294,6 @@
                         </a>
                      </div>
                   </div>
-                  <!-- mobhil view section -->
-                  <div class="upcom_appoint_mobhil_view">
-                     <div class="upcoming-appointments ">
-                        <div class="col psychiatrist">
-                           <div class="hd_wi_icon">
-                              <h3>Psychiatrist</h3>
-                              <a href="">
-                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                                    class="bi bi-pencil-square" viewBox="0 0 16 16">
-                                    <path
-                                       d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
-                                    <path fill-rule="evenodd"
-                                       d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
-                                 </svg>
-                              </a>
-                           </div>
-                           <div class="icon_list">
-                              <ul>
-                                 <li><i class="fa-solid fa-stethoscope"></i>First Last, MD</li>
-                                 <li><i class="far fa-calendar"></i>June 15, 2019 at 8:00 AM</li>
-                                 <li><i class="far fa-clipboard"></i>Blue Shield</li>
-                                 <li><i class="fas fa-map-marker-alt"></i><b>In-Person</b><br>950 Studemont
-                                    St,<br>Houston, TX 77007</li>
-                                 <li class="lf_ri"><span><i
-                                          class="far fa-clipboard"></i><b>Copay</b></span><span>&dollar;20</span></li>
-                              </ul>
-                           </div>
-                           <div class="pay_pre">
-                              <a class="btn btn-primary" href="#" role="button">Pay Copay</a>
-                              <a class="btn btn-outline-primary" href="#" role="button">Pre-Visit Assessment</a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="upcoming-appointments ">
-                        <div class="col therapist">
-                           <div class="hd_wi_icon">
-                              <h3>Therapist</h3>
-                              <a href="">
-                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                                    class="bi bi-pencil-square" viewBox="0 0 16 16">
-                                    <path
-                                       d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
-                                    <path fill-rule="evenodd"
-                                       d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
-                                 </svg>
-                              </a>
-                           </div>
-                           <div class="icon_list">
-                              <ul>
-                                 <li><i class="fa-solid fa-stethoscope"></i>First Last, LMFT</li>
-                                 <li><i class="far fa-calendar"></i>June 15, 2019 at 8:00 AM</li>
-                                 <li><i class="far fa-clipboard"></i>Blue Shield</li>
-                                 <li class="lf_ri"><span><i class="fas fa-map-marker-alt"></i><b>Virtual</b></span><a
-                                       class="btn btn-primary" href="#" role="button">Join</a></li>
-                                 <li class="lf_ri"><span><i
-                                          class="far fa-clipboard"></i><b>Copay</b></span><span>&dollar;20</span></li>
-                              </ul>
-                           </div>
-                           <div class="pay_pre">
-                              <a class="btn btn-primary" href="#" role="button">Pay Copay</a>
-                              <a class="btn btn-outline-primary" href="#" role="button">Pre-Visit Assessment</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
                   <div class="your-care-team">
                      <div class="team-member">
                         <h3 class="mb-3 text-center">Your Care Team</h3>
@@ -396,9 +331,27 @@
                      </div>
                   </div>
                </div>
+               <!-- Upcoming Appionment Null Screen -->
+                   <!-- <div class="col-9">
+                     <div class="upcoming-appointments sec_section hiddd">
+                        <h3 class="mb-4 bap">Book an appointment</h3>
+                        <h4 class="after_book_block">Interested in a Personalized Care Plan?</h4>
+                        <div class="row">
+                        <div class="book-appoiment">
+                           <div class="buttones_two">
+                              <a class="btn btn-primary appo pasychiatrist" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenterUpcoming" onclick="psychiatrist_btn();">Psychiatrist</a>
+                              <a class="btn btn-primary appo Therapist" href="#" role="button" data-toggle="modal" data-target="#exampleModalCenterUpcoming" onclick="therapist_btn();"> Therapist </a>
+                           </div>
+                           <div class="after_book">
+                              <a class="btn btn-outline-primary book" href="#" role="button" onclick="check()"> Insomnia </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>  -->
                <!-- upcoming appointements -->
                <div class="col-9">
-                  <div class="upcoming-appointments sec_section">
+                  <div class="upcoming-appointments sec_section disssss">
                      <h3 class="mb-4">Upcoming Appointments</h3>
                      <div class="row">
                         <div class="col psychiatrist">
@@ -2644,6 +2597,57 @@
             </div>
          </div>
       </section>
+
+        <!-- POPUp foe Upcoming Null screen Selection Appionmnet -->
+        <div class="modal fade main-upcommm" id="exampleModalCenterUpcoming" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+           <div class="modal-content">
+             <div class="poplogo mb-2 text-center">
+                <img src="img/site_logo.png" width="200">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+               </button>
+             </div>   
+             <form method="GET" action="unkonw-book-appoiment/docter-impoiment.html">
+                <div class="choic_appiment">
+                   <div class="fild1 mt-3 mb-3">
+                   <h5 class="modal-title mb-1" id="exampleModalLongTitle">1. Would you like a Virtual or In people Appointment ?</h5>
+                   <div class="choicthr d-flex align-items-center">
+                      <input type="radio" id="html" name="fav_language" value="HTML">
+                      <label for="html">Virtual</label>
+                      <input type="radio" id="css" name="fav_language" value="CSS">
+                      <label for="css">In-Person</label>
+                      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                      <label for="javascript">Either</label>
+                   </div>
+                   </div>
+                   <div class="fild2 mt-3 mb-3">
+                      <h5 class="modal-title mb-1" id="exampleModalLongTitle">2. Do you want see a Therapist ? </h5>
+                   <div class="choicthr d-flex align-items-center">
+                      <input type="radio" id="age1" name="age" value="Psychiatrist">
+                      <label for="age1">Psychiatrist</label><br>
+                      <input type="radio" id="age2" name="age" value="Therapist">
+                      <label for="age2">Therapist</label>
+                   </div>
+                   </div>
+                   <div class="flid3 mt-3 mb-3">
+                      <div class="col-6 p-0">
+                         <h5 class="modal-title mb-1" id="exampleModalLongTitle">3. Zip Code</h5>
+                         <input type="number" name="number" class="form-control" id="inputZip" placeholder="Zip Code">
+                      </div>   
+                   </div>
+                   <div class="flid4 mt-4 mb-4 text-left">
+                      <!-- <a class="btn btn-primary" href="unkonw-book-appoiment/docter-impoiment.html" role="button">Search</a> -->
+                      <button type="submit" class="btn btn-primary inpop" href="unkonw-book-appoiment/docter-impoiment.html" role="button">Search</button>
+                   </div>
+                </div>
+             </form>   
+             <!-- <div class="modal-footer44445444 d-block">
+               <button type="button" class="btn btn-primary">Upgrade to Plus Membership</button>
+             </div> -->
+           </div>
+        </div>
+       </div>
 
 
       <!-- pharmacy modal here ......................... -->
