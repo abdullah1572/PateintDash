@@ -886,7 +886,7 @@ input[type="checkbox" i] {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 150%;
     text-align: center;
     letter-spacing: 0.0044em;
@@ -898,13 +898,15 @@ input[type="checkbox" i] {
     border: none;
     outline: none;
 }
-
-.insurance-history .modal-header .close-modal {
+.insurance-history .modal-header button{
     position: absolute;
-    top: 29px;
+    top: 35px;
     right: 22px;
     z-index: 999;
     opacity: 1;
+}
+.insurance-history .modal-header .close-modal {
+    
 }
 
 .insurance-history .upper-content {
@@ -1271,7 +1273,7 @@ input[type="checkbox" i] {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 150%;
     text-align: center;
     letter-spacing: 0.0044em;
@@ -1710,7 +1712,7 @@ table.dataTable thead>tr>td.sorting_desc_disabled:after {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 150%;
     text-align: center;
     letter-spacing: 0.0044em;
